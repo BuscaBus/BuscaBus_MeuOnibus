@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "581635545780",
+    "firebase_url": "https://buscabus-d19bb.firebaseio.com",
+    "project_id": "buscabus-d19bb",
+    "storage_bucket": "buscabus-d19bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581635545780:android:5fd9f72503cac2db9b95e1",
+        "android_client_info": {
+          "package_name": "br.com.buscabus.www.buscabus_meuonibus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "581635545780-tis38kvjjb2i24m2eq4qcp6elbpokn3b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.buscabus.www.buscabus_meuonibus",
+            "certificate_hash": "6afaec493c3f01b6ec859b7056828f94aa55cea0"
+          }
+        },
+        {
+          "client_id": "581635545780-umkt65ku8i0nlk0eq1onimc7uiref691.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9dHdbHtIDAtgQW2eWNEDIThqRxcYXOaI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "581635545780-umkt65ku8i0nlk0eq1onimc7uiref691.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
