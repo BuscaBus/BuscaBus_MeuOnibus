@@ -32,25 +32,27 @@ public class Act_Empresas_Imperatriz extends AppCompatActivity {
         // Declaração dos itens no ListView
         linha = new ArrayList<String>();
         linha.add("Águas Mornas-Florianópolis");
-        linha.add("Alto Aririu-Florianópolis via BR 101/Expressa");
+        linha.add("Alto Aririu-Florianópolis");
+        linha.add("Alto Aririu-Florianópolis via BR 101");
+        linha.add("Alto Aririu-Florianópolis via Capela");
+        linha.add("Alto Aririu-Florianópolis via Capela/BR 101");
         linha.add("Aririu-Caldas");
         linha.add("Caldas-Florianópolis");
         linha.add("Caldas-Florianópolis via B. São Francisco");
-        linha.add("Caldas-Florianópolis via BR 101/Expressa");
-        linha.add("Capela/Alto Aririu-Florianópolis");
-        linha.add("Capela/Alto Aririu-Florianópolis via BR 101/Expressa");
+        linha.add("Caldas-Florianópolis via BR 101");
         linha.add("Lourdes-Florianópolis");
         linha.add("Lourdes-Santo Amaro");
         linha.add("Queçaba-Florianópolis");
         linha.add("Santa Isabel-Florianópolis");
         linha.add("Santo Amaro-Florianópolis");
         linha.add("Santo Amaro-Florianópolis via B. São Francisco");
-        linha.add("Santo Amaro-Florianópolis via BR 101/Expressa");
-        linha.add("Santo Amaro-Florianópolis via BR 282/BR 101/Expressa");
+        linha.add("Santo Amaro-Florianópolis via B. São Francisco/BR 101");
+        linha.add("Santo Amaro-Florianópolis via BR 101");
+        linha.add("Santo Amaro-Florianópolis via BR 282");
         linha.add("Santo Amaro-Florianópolis via Sertão");
         linha.add("Santo Amaro-Florianópolis via Sul do Rio");
         linha.add("Vargem Grande-Florianópolis");
-        linha.add("Vargem Grande-Florianópolis via BR 101/Expressa");
+        linha.add("Vargem Grande-Florianópolis via BR 101");
 
 
         adaptador = new ArrayAdapter<String>(Act_Empresas_Imperatriz.this, android.R.layout.simple_list_item_1, linha);

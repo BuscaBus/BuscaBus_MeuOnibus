@@ -34,6 +34,7 @@ public class Act_Empresas_STerezinha extends AppCompatActivity {
         linha.add("Angelina-Florianópolis");
         linha.add("Flor de Nápolis-Florianópolis");
         linha.add("Jardim Pinheiros-Kobrasol");
+        linha.add("Picadas do Sul-Florianópolis");
         linha.add("Santana-Florianópolis");
         linha.add("Santana-Kobrasol");
         linha.add("São Pedro de Alcântara-Florianópolis");

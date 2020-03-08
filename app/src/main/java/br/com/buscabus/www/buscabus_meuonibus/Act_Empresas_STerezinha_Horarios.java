@@ -35,6 +35,9 @@ public class Act_Empresas_STerezinha_Horarios extends AppCompatActivity {
             case "Jardim Pinheiros-Kobrasol":
                 WebView.loadUrl("http://www.santaterezinha.com/?area=linhas&id=23");
                 break;
+            case "Picadas do Sul-Florianópolis":
+                WebView.loadUrl("http://www.santaterezinha.com/?area=linhas&id=26");
+                break;
             case "Santana-Florianópolis":
                 WebView.loadUrl("http://www.santaterezinha.com/?area=linhas&id=7");
                 break;

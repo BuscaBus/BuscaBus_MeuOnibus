@@ -50,8 +50,6 @@ public class Act_Empresas_CFenix extends AppCompatActivity {
         linha.add("1127 - Executivo Gaivotas");
         linha.add("1128 - Executivo Costa do Moçambique");
         linha.add("1129 - Executivo Muquem");
-        linha.add("1130 - Diretão Praia Canasvieiras");
-        linha.add("1131 - Diretão Praia Jurerê");
         linha.add("131 - TITRI-TICEN via Gama D`Eça");
         linha.add("132 - TITRI-TICEN via Gama D`Eça/HI");
         linha.add("133 - TITRI-TICEN via Mauro Ramos");
@@ -82,7 +80,7 @@ public class Act_Empresas_CFenix extends AppCompatActivity {
         linha.add("178 - Saco Grande/Retorno SC 401");
         linha.add("179 - Serrinha");
         linha.add("180 - TITRI-UFSC");
-        //linha.add("181 - Cacupé/João Paulo via Barreira do Janga");
+        linha.add("181 - Cacupé/João Paulo via Barreira do Janga");
         linha.add("182 - Tecnópolis");
         linha.add("183 - Corredor Sudoeste");
         linha.add("184 - UDESC via Beira Mar");
@@ -95,7 +93,6 @@ public class Act_Empresas_CFenix extends AppCompatActivity {
         linha.add("2120 - Executivo Barra da Lagoa");
         linha.add("2123 - Executivo Lagoa da Conceição via Joaquina");
         linha.add("2124 - Executivo Sambaqui");
-        linha.add("2125 - Diretão Praia Joaquina");
         linha.add("221 - TICAN-TICEN via Mauro Ramos");
         linha.add("230 - Canasvieiras via Gama D`Eça");
         linha.add("231 - TICAN-TICEN via TITRI");
@@ -118,7 +115,7 @@ public class Act_Empresas_CFenix extends AppCompatActivity {
         linha.add("274 - Rio Vermelho via Muquem");
         linha.add("276 - Balneário Canasvieiras");
         linha.add("277 - Balneário Ingleses");
-        //linha.add("280 - Cachoeira-TICAN");
+        linha.add("280 - Cachoeira-TICAN");
         linha.add("281 - Costa do Moçambique");
         linha.add("282 - Vargem Pequena");
         linha.add("283 - Vargem do Bom Jesus");
@@ -127,7 +124,7 @@ public class Act_Empresas_CFenix extends AppCompatActivity {
         linha.add("286 - TICAN-Sapiens Parque");
         //linha.add("291 - Circular Canasvieiras/Praia Brava");
         linha.add("294 - Interpraias");
-        //linha.add("296 - Circular Santinho/Ingleses");
+        linha.add("296 - Circular Santinho/Ingleses");
         linha.add("300 - Madrugadão Leste");
         linha.add("3001 - Executivo Abraão-UFSC");
         linha.add("3002 - Executivo Jardim Atlântico-UFSC");
@@ -150,8 +147,6 @@ public class Act_Empresas_CFenix extends AppCompatActivity {
         linha.add("4123 - Executivo Ribeirão da Ilha");
         linha.add("4124 - Executivo Caieira Barra do Sul via Tapera");
         linha.add("4125 - Executivo Pântano do Sul via Gramal");
-        linha.add("4129 - Diretão Praia Campeche");
-        linha.add("4130 - Diretão Praia Armação");
         linha.add("430 - TIRIO-TICEN via Costeira");
         linha.add("431 - TICEN-Aeroporto");
         linha.add("460 - Porto da Lagoa");
@@ -160,14 +155,15 @@ public class Act_Empresas_CFenix extends AppCompatActivity {
         linha.add("463 - Castanheiras via Eucaliptos");
         linha.add("464 - Castanheiras via Gramal");
         linha.add("467 - Tapera/Saco dos Limões");
-        linha.add("468 - TIRIO-Aeroporto");
+        linha.add("468 - TIRIO-Aeroporto via Carianos");
         linha.add("469 - Tapera-Rio Tavares");
         linha.add("470 - Tapera-TITRI");
         linha.add("472 - Campeche via Capela");
         linha.add("473 - Morro das Pedras via Eucaliptos");
         linha.add("474 - Morro das Pedras via Gramal");
-        linha.add("477 - Circular Tapera-Aeroporto-Carianos");
+        linha.add("477 - TIRIO-Aeroporto via Tapera");
         linha.add("500 - Madrugadão Sul");
+        linha.add("502 - Madrugadão Aeroporto-Tapera-Carianos");
         linha.add("560 - Armação");
         linha.add("561 - Caieira da Barra do Sul");
         linha.add("562 - Costa de Cima");
@@ -208,12 +204,13 @@ public class Act_Empresas_CFenix extends AppCompatActivity {
         linha.add("847 - TIRIO-TITRI via UFSC");
         linha.add("850 - TILAG-Rio Vermelho via Cidade da Barra");
         linha.add("940 - Canasvieiras-Santo Antônio via Jurerê");
-        //linha.add("941 - Canasvieiras-Santo Antônio via Ratones");
+        linha.add("941 - Canasvieiras-Santo Antônio via Ratones");
         linha.add("943 - Saco dos Limões-Trindade");
         linha.add("944 - Saco dos Limões-Trindade via Madre Benvenuta");
-        //linha.add("946 - Jardim Atlântico-UFSC");
-        //linha.add("948 - Capoeiras-UFSC");
-        //linha.add("949 - Abraão-UFSC");
+        linha.add("946 - Jardim Atlântico-UFSC");
+        linha.add("948 - Capoeiras-UFSC");
+        linha.add("949 - Abraão-UFSC");
+        linha.add("950 - Escolar Canasvieiras-Ratones");
         linha.add("D163 - Córrego Grande Direto");
         linha.add("D168 - Monte Verde Direto");
         linha.add("D174 - Saco Grande Direto");

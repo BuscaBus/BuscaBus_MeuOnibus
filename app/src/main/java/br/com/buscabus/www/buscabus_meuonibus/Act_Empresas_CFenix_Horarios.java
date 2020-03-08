@@ -4,12 +4,15 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.Button;
 
 public class Act_Empresas_CFenix_Horarios extends AppCompatActivity {
 
     private android.webkit.WebView WebView;
+    private Button Btn_VerMapa;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -80,12 +83,6 @@ public class Act_Empresas_CFenix_Horarios extends AppCompatActivity {
                 break;
             case "1129 - Executivo Muquem":
                 WebView.loadUrl("https://www.consorciofenix.com.br/horarios/executivo-muquem,1129");
-                break;
-            case "1130 - Diretão Praia Canasvieiras":
-                WebView.loadUrl("https://www.consorciofenix.com.br/horarios/diretao-praia-canasvieiras,1130");
-                break;
-            case "1131 - Diretão Praia Jurerê":
-                WebView.loadUrl("https://www.consorciofenix.com.br/horarios/diretao-praia-jurere,1131");
                 break;
             case "131 - TITRI-TICEN via Gama D`Eça":
                 WebView.loadUrl("https://www.consorciofenix.com.br/horarios/titri-ticen-via-gama-deca,131");
@@ -218,9 +215,6 @@ public class Act_Empresas_CFenix_Horarios extends AppCompatActivity {
                 break;
             case "2124 - Executivo Sambaqui":
                 WebView.loadUrl("https://www.consorciofenix.com.br/horarios/executivo-sambaqui,2124");
-                break;
-            case "2125 - Diretão Praia Joaquina":
-                WebView.loadUrl("https://www.consorciofenix.com.br/horarios/diretao-praia-joaquina,2125");
                 break;
             case "221 - TICAN-TICEN via Mauro Ramos":
                 WebView.loadUrl("https://www.consorciofenix.com.br/horarios/tican-ticen-via-mauro-ramos,221");
@@ -387,12 +381,6 @@ public class Act_Empresas_CFenix_Horarios extends AppCompatActivity {
             case "4125 - Executivo Pântano do Sul via Gramal":
                 WebView.loadUrl("https://www.consorciofenix.com.br/horarios/executivo-pantano-do-sul-via-gramal,4125");
                 break;
-            case "4129 - Diretão Praia Campeche":
-                WebView.loadUrl("https://www.consorciofenix.com.br/horarios/diretao-praia-campeche,4129");
-                break;
-            case "4130 - Diretão Praia Armação":
-                WebView.loadUrl("https://www.consorciofenix.com.br/horarios/diretao-praia-armacao,4130");
-                break;
             case "430 - TIRIO-TICEN via Costeira":
                 WebView.loadUrl("https://www.consorciofenix.com.br/horarios/tirio-ticen-via-costeira,430");
                 break;
@@ -417,8 +405,8 @@ public class Act_Empresas_CFenix_Horarios extends AppCompatActivity {
             case "467 - Tapera/Saco dos Limões":
                 WebView.loadUrl("https://www.consorciofenix.com.br/horarios/tapera-saco-dos-limoes,467");
                 break;
-            case "468 - TIRIO-Aeroporto":
-                WebView.loadUrl("https://www.consorciofenix.com.br/horarios/tirio-aeroporto,468");
+            case "468 - TIRIO-Aeroporto via Carianos":
+                WebView.loadUrl("https://www.consorciofenix.com.br/horarios/tirio-aeroporto-via-carianos,468");
                 break;
             case "469 - Tapera-Rio Tavares":
                 WebView.loadUrl("https://www.consorciofenix.com.br/horarios/tapera-rio-tavares,469");
@@ -435,11 +423,14 @@ public class Act_Empresas_CFenix_Horarios extends AppCompatActivity {
             case "474 - Morro das Pedras via Gramal":
                 WebView.loadUrl("https://www.consorciofenix.com.br/horarios/morro-das-pedras-via-gramal,474");
                 break;
-            case "477 - Circular Tapera-Aeroporto-Carianos":
-                WebView.loadUrl("https://www.consorciofenix.com.br/horarios/circular-tapera-aeroporto-carianos,477");
+            case "477 - TIRIO-Aeroporto via Tapera":
+                WebView.loadUrl("https://www.consorciofenix.com.br/horarios/tirio-aeroporto-via-tapera,477");
                 break;
             case "500 - Madrugadão Sul":
                 WebView.loadUrl("https://www.consorciofenix.com.br/horarios/madrugadao-sul,500");
+                break;
+            case "502 - Madrugadão Aeroporto-Tapera-Carianos":
+                WebView.loadUrl("https://www.consorciofenix.com.br/horarios/madrugadao-aeroporto-tapera-carianos,502");
                 break;
             case "560 - Armação":
                 WebView.loadUrl("https://www.consorciofenix.com.br/horarios/armacao,560");
@@ -578,6 +569,9 @@ public class Act_Empresas_CFenix_Horarios extends AppCompatActivity {
                 break;
             case "949 - Abraão-UFSC":
                 WebView.loadUrl("https://www.consorciofenix.com.br/horarios/abraao-ufsc,949");
+                break;
+            case "950 - Escolar Canasvieiras-Ratones":
+                WebView.loadUrl("https://www.consorciofenix.com.br/horarios/escolar-canasvieiras-ratones,950");
                 break;
             case "D163 - Córrego Grande Direto":
                 WebView.loadUrl("https://www.consorciofenix.com.br/horarios/corrego-grande-direto,D-163");
