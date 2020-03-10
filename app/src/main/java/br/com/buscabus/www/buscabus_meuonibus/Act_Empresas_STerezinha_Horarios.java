@@ -48,7 +48,7 @@ public class Act_Empresas_STerezinha_Horarios extends AppCompatActivity {
                 WebView.loadUrl("http://www.santaterezinha.com/?area=linhas&id=6");
                 break;
             case "Sertão do Maruim-Florianópolis":
-                WebView.loadUrl("http://www.santaterezinha.com/?area=linhas&id=1");
+                WebView.loadUrl("http://www.santaterezinha.com/?area=linhas&id=25");
                 break;
             case "Vila Formosa-Florianópolis":
                 WebView.loadUrl("http://www.santaterezinha.com/?area=linhas&id=8");
