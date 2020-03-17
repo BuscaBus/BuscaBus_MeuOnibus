@@ -185,6 +185,7 @@ public class Act_Empresas_CFenix extends AppCompatActivity {
         linha.add("668 - Promorar via Ivo Silveira");
         linha.add("670 - Monte Cristo");
         linha.add("671 - Vila/Promorar");
+        linha.add("672 - Monte Cristo via Escola Edith Gama Ramos");
         linha.add("760 - Morro do Geraldo");
         linha.add("761 - Vila Aparecida");
         linha.add("762 - Ângelo Laporta");

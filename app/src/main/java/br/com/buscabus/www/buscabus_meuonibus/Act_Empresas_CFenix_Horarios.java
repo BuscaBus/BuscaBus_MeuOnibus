@@ -495,6 +495,9 @@ public class Act_Empresas_CFenix_Horarios extends AppCompatActivity {
             case "671 - Vila/Promorar":
                 WebView.loadUrl("https://www.consorciofenix.com.br/horarios/vila-promorar,671");
                 break;
+            case "672 - Monte Cristo via Escola Edith Gama Ramos":
+                WebView.loadUrl("https://www.consorciofenix.com.br/horarios/monte-cristo-via-escola-edith-gama-ramos,672");
+                break;
             case "760 - Morro do Geraldo":
                 WebView.loadUrl("https://www.consorciofenix.com.br/horarios/morro-do-geraldo,760");
                 break;
