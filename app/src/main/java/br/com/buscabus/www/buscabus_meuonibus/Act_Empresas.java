@@ -1,5 +1,6 @@
 package br.com.buscabus.www.buscabus_meuonibus;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -22,9 +23,9 @@ public class Act_Empresas extends AppCompatActivity {
         Button Btn_Jotur = (Button) findViewById(R.id.Btn_Jotur);
         Button Btn_STerezinha = (Button) findViewById(R.id.Btn_STerezinha);
 
+
         // Chama tela por Empresa
         Btn_CFenix.setOnClickListener(new View.OnClickListener() {
-
             public void onClick(View v) {
                 Intent it = new Intent(Act_Empresas.this, Act_Empresas_CFenix.class);
                 startActivity(it);
@@ -71,6 +72,8 @@ public class Act_Empresas extends AppCompatActivity {
             }
 
         });
+
+
 
 
 
