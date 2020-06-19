@@ -20,7 +20,9 @@
         android:roundIcon="@mipmap/ic_busapp_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Act_Empresas_CFenix_Mapas"></activity>
+        <activity android:name=".Act_Op_Map_Linh_CFenix"></activity>
+        <activity android:name=".Act_Op_Map" />
+        <activity android:name=".Act_Op_Map_Linh_CFenix_WebMap" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -36,19 +38,19 @@
         <activity
             android:name=".Act_Mapa"
             android:label="@string/title_activity_act__mapa" />
-        <activity android:name=".Act_Empresas_STerezinha_Horarios" />
-        <activity android:name=".Act_Empresas_Jotur_Horarios" />
-        <activity android:name=".Act_Empresas_Imperatriz_Horarios" />
-        <activity android:name=".Act_Empresas_Estrela_Horarios" />
-        <activity android:name=".Act_Empresas_Biguacu_Horarios" />
-        <activity android:name=".Act_Empresas_CFenix_Horarios" />
-        <activity android:name=".Act_Empresas_CFenix" />
-        <activity android:name=".Act_Empresas_STerezinha" />
-        <activity android:name=".Act_Empresas_Jotur" />
-        <activity android:name=".Act_Empresas_Imperatriz" />
-        <activity android:name=".Act_Empresas_Estrela" />
-        <activity android:name=".Act_Empresas_Biguacu" />
-        <activity android:name=".Act_Empresas" />
+        <activity android:name=".Act_Op_Hor_Linh_STerezinha_WebHor" />
+        <activity android:name=".Act_Op_Hor_Linh_Jotur_WebHor" />
+        <activity android:name=".Act_Op_Hor_Linh_Imperatriz_WebHor" />
+        <activity android:name=".Act_Op_Hor_Linh_Estrela_WebHor" />
+        <activity android:name=".Act_Op_Hor_Linh_Biguacu_WebHor" />
+        <activity android:name=".Act_Op_Hor_Linh_CFenix_WebHor" />
+        <activity android:name=".Act_Op_Hor_Linh_CFenix" />
+        <activity android:name=".Act_Op_Hor_Linh_STerezinha" />
+        <activity android:name=".Act_Op_Hor_Linh_Jotur" />
+        <activity android:name=".Act_Op_Hor_Linh_Imperatriz" />
+        <activity android:name=".Act_Op_Hor_Linh_Estrela" />
+        <activity android:name=".Act_Op_Hor_Linh_Biguacu" />
+        <activity android:name=".Act_Op_Hor" />
         <activity android:name=".Act_Inicio">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

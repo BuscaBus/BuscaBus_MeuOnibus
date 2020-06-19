@@ -20,7 +20,7 @@ public class Act_Inicio extends AppCompatActivity {
         // Chama tela Act_Empresas
         Btn_Horarios.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent it = new Intent(Act_Inicio.this, Act_Empresas.class);
+                Intent it = new Intent(Act_Inicio.this, Act_Op_Hor.class);
                 startActivity(it);
             }
         });
@@ -28,7 +28,7 @@ public class Act_Inicio extends AppCompatActivity {
         // Chama tela Act_Mapa
         Btn_Mapa.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent it = new Intent(Act_Inicio.this, Act_Mapa.class);
+                Intent it = new Intent(Act_Inicio.this, Act_Op_Map.class);
                 startActivity(it);
             }
         });
