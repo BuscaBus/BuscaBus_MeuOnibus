@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorWhiteSmoke"
     tools:context=".Act_Inicio">
 
     <ImageView
@@ -25,6 +26,7 @@
         android:layout_marginTop="5dp"
         android:layout_marginEnd="8dp"
         android:text="@string/Txt_Inicio"
+        android:textColor="@color/colorBlue"
         android:backgroundTint="@color/colorBlue"
         android:textSize="48sp"
         android:textStyle="bold"
@@ -35,14 +37,15 @@
 
     <Button
         android:id="@+id/Btn_Horarios"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
+        android:layout_width="292dp"
+        android:layout_height="66dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:text="@string/Btn_Horarios"
-        android:backgroundTint="@color/colorBlue"
-        android:textColor="@color/colorWhite"
         android:background="@drawable/button_oval"
+        android:backgroundTint="@color/colorBlue"
+        android:drawableLeft="@drawable/ic_time_inicio_foreground"
+        android:text="@string/Btn_Horarios"
+        android:textColor="@color/colorWhite"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -50,19 +53,19 @@
         app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Txt_Inicio"
-        app:layout_constraintVertical_bias="0.163" />
+        app:layout_constraintVertical_bias="0.091" />
 
     <Button
         android:id="@+id/Btn_Mapa"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
+        android:layout_width="292dp"
+        android:layout_height="66dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        android:text="@string/Btn_Mapa"
-        android:backgroundTint="@color/colorBlue"
-        android:textColor="@color/colorWhite"
         android:background="@drawable/button_oval"
+        android:backgroundTint="@color/colorBlue"
+        android:drawableLeft="@drawable/ic_mapa_inicio_foreground"
+        android:text="@string/Btn_Mapas"
+        android:textColor="@color/colorWhite"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -70,7 +73,6 @@
         app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Btn_Horarios"
-        app:layout_constraintVertical_bias="0.066" />
-
+        app:layout_constraintVertical_bias="0.071" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

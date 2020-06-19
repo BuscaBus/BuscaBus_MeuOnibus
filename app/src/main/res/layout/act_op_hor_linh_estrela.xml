@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorCiano"
     tools:context=".Act_Op_Hor_Linh_Estrela">
 
     <TextView
@@ -15,7 +16,7 @@
         android:layout_marginEnd="8dp"
         android:text="@string/Txt_Hor_Estrela"
         android:textAlignment="center"
-        android:textColor="@color/colorCiano"
+        android:textColor="@color/colorWhite"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
