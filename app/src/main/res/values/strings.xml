@@ -2,18 +2,12 @@
     <string name="app_name">BuscaBus</string>
 
     <string name="Txt_Inicio">BuscaBus</string>
-    <string name="Txt_Hor_CFenix">Horários Consórcio Fênix</string>
-    <string name="Txt_Map_CFenix">Mapas Consórcio Fênix</string>
-    <string name="Txt_Hor_Biguacu">Horários Biguaçu</string>
-    <string name="Txt_Map_Biguacu">Mapas Biguaçu</string>
-    <string name="Txt_Hor_Estrela">Horários Estrela</string>
-    <string name="Txt_Map_Estrela">Mapas Estrela</string>
-    <string name="Txt_Hor_Imperatriz">Horários Imperatriz</string>
-    <string name="Txt_Map_Imperatriz">Mapas Imperatriz</string>
-    <string name="Txt_Hor_Jotur">Horários Jotur</string>
-    <string name="Txt_Map_Jotur">Mapas Jotur</string>
-    <string name="Txt_Hor_STerezinha">Horários Santa Terezinha</string>
-    <string name="Txt_Map_STerezinha">Mapas Santa Terezinha</string>
+    <string name="Txt_CFenix">Consórcio Fênix</string>
+    <string name="Txt_Biguacu">Biguaçu</string>
+    <string name="Txt_Estrela">Estrela</string>
+    <string name="Txt_Imperatriz">Imperatriz</string>
+    <string name="Txt_Jotur">Jotur</string>
+    <string name="Txt_STerezinha">Santa Terezinha</string>
     <string name="Txt_Ticen">TICEN</string>
     <string name="Txt_Titri">TITRI</string>
     <string name="Txt_Tilag">TILAG</string>
@@ -24,6 +18,7 @@
 
     <string name="Btn_Horarios">Horários</string>
     <string name="Btn_Mapas">Mapa</string>
+    <string name="Btn_Terminais">Terminais</string>
     <string name="Btn_VerMapa">Ver Mapa</string>
     <string name="Btn_CFenix">Consórcio Fênix</string>
     <string name="Btn_Biguacu">Biguaçu</string>
@@ -31,6 +26,13 @@
     <string name="Btn_Imperatriz">Imperatriz</string>
     <string name="Btn_Jotur">Jotur</string>
     <string name="Btn_STerezinha">Santa Terezinha</string>
+    <string name="Btn_Ticen">TICEN</string>
+    <string name="Btn_Titri">TITRI</string>
+    <string name="Btn_Tilag">TILAG</string>
+    <string name="Btn_Tirio">TIRIO</string>
+    <string name="Btn_Tisan">TISAN</string>
+    <string name="Btn_Tican">TICAN</string>
+    <string name="Btn_EstacaoPH">ESTAÇÃO PALHOÇA</string>
 
     <string name="title_activity_act__mapa">Mapa</string>
 

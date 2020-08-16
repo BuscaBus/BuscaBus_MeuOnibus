@@ -15,20 +15,20 @@ public class Act_Inicio extends AppCompatActivity {
         setContentView(R.layout.act_inicio);
 
         Button Btn_Horarios = (Button) findViewById(R.id.Btn_Horarios);
-        Button Btn_Mapa = (Button) findViewById(R.id.Btn_Mapa);
+        Button Btn_Terminais = (Button) findViewById(R.id.Btn_Terminais);
 
         // Chama tela Act_Empresas
         Btn_Horarios.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent it = new Intent(Act_Inicio.this, Act_Op_Hor.class);
+                Intent it = new Intent(Act_Inicio.this, Act_Empresas.class);
                 startActivity(it);
             }
         });
 
         // Chama tela Act_Mapa
-        Btn_Mapa.setOnClickListener(new View.OnClickListener() {
+        Btn_Terminais.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent it = new Intent(Act_Inicio.this, Act_Op_Map.class);
+                Intent it = new Intent(Act_Inicio.this, Act_Terminais.class);
                 startActivity(it);
             }
         });
