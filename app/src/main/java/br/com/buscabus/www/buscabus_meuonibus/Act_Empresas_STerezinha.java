@@ -31,15 +31,15 @@ public class Act_Empresas_STerezinha extends AppCompatActivity {
 
         // Declaração dos itens no ListView
         linha = new ArrayList<String>();
-        linha.add("Angelina-Florianópolis");
+        //linha.add("Angelina-Florianópolis");
         linha.add("Flor de Nápolis-Florianópolis");
-        linha.add("Jardim Pinheiros-Kobrasol");
-        linha.add("Picadas do Sul-Florianópolis");
+        //linha.add("Jardim Pinheiros-Kobrasol");
+        //linha.add("Picadas do Sul-Florianópolis");
         linha.add("Santana-Florianópolis");
-        linha.add("Santana-Kobrasol");
+        //linha.add("Santana-Kobrasol");
         linha.add("São Pedro de Alcântara-Florianópolis");
         linha.add("Sertão do Maruim-Florianópolis");
-        linha.add("Vila Formosa-Florianópolis");
+        //linha.add("Vila Formosa-Florianópolis");
 
         adaptador = new ArrayAdapter<String>(Act_Empresas_STerezinha.this, android.R.layout.simple_list_item_1, linha);
         listView.setAdapter(adaptador);

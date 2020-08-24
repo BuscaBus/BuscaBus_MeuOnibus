@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.webkit.WebViewClient;
 import android.widget.Button;
 
@@ -28,10 +29,10 @@ public class Act_Empresas_Jotur_WebView extends AppCompatActivity {
         // Declaração dos botão Mapa
         final Button Btn_Mapa = (Button) findViewById(R.id.Btn_Mapa);
 
-        // Parametro para exibir Mapa
+        // Parametro para exibir Horários
         switch(parametroNomeLinha) {
             case "Albardão-Estação Palhoça":
-                WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/albardao-estacao-palhoca,43");
+                WebView.loadUrl("https://www.google.com/maps/d/edit?mid=1O6W-G8qOEpapAHbjEkgfWOA6i5-_JxSU&usp=sharing");
                 break;
             case "Alto Aririu-Estação Palhoça":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/alto-aririu-e-loteamento-schutz-estacao-palhoca,2o");
@@ -51,7 +52,7 @@ public class Act_Empresas_Jotur_WebView extends AppCompatActivity {
             case "Barra do Aririu-Barreiros":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/barra-do-aririu-barreiros-paradora,m");
                 break;
-            case "Barra do Aririu-Estação Palhoça (Circular)":
+            case "Barra do Aririu-Ponte do Imaruim (Circular)":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/barra-do-aririu-estacao-palhoca-circular,10");
                 break;
             case "Barra do Aririu-Estação Palhoça via Rio Grande":
@@ -63,13 +64,13 @@ public class Act_Empresas_Jotur_WebView extends AppCompatActivity {
             case "Barra do Aririu-Hospital Regional":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/barra-do-aririu-hospital-regional-paradora,n");
                 break;
-            case "Bela Vista-Estação Palhoça":
+            case "Bela Vista-Ponte do Imaruim":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/bela-vista-estacao-palhoca,1e");
                 break;
             case "Bela Vista-Florianópolis":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/bela-vista-florianopolis,19");
                 break;
-            case "Caminho Novo/Terra Nova-Estação Palhoça":
+            case "Caminho Novo/Terra Nova-Palhoça":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/caminho-novo-terra-nova-estacao-palhoca,2e");
                 break;
             case "Caminho Novo/Terra Nova-Florianópolis":
@@ -77,6 +78,9 @@ public class Act_Empresas_Jotur_WebView extends AppCompatActivity {
                 break;
             case "Circulares Região Sul (Escolar)":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/circulares-municipais-escolar-da-regiao-sul-de-palhoca,30");
+                break;
+            case "Cidade Univercitária - Interbairros (Circular)":
+                WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/cidade-universitaria-interbairros-circular-via-unisul-jardim-aquarius-jardim-eldorado,1q");
                 break;
             case "Diretão":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/sao-jose,2/barreiros-sao-jose-diretao,20");
@@ -87,7 +91,7 @@ public class Act_Empresas_Jotur_WebView extends AppCompatActivity {
             case "Enseada do Brito (Escolar)":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/enseada-do-brito-escolar,45");
                 break;
-            case "Enseada do Brito-Estação Palhoça":
+            case "Enseada do Brito-Ponte do Imaruim":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/enseada-do-brito-estacao-palhoca,2n");
                 break;
             case "Enseada do Brito-Florianópolis (Executivo)":
@@ -129,10 +133,10 @@ public class Act_Empresas_Jotur_WebView extends AppCompatActivity {
             case "Forquilhas-São José":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/sao-jose,2/forquilhas-sao-jose,22");
                 break;
-            case "Guarda do Cubatão-Estação Palhoça":
+            case "Guarda do Cubatão-Ponte do Imaruim":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/guarda-do-cubatao-estacao-palhoca,13");
                 break;
-            case "Guarda do Cubatão-Estação Palhoça (Circular)":
+            case "Guarda do Cubatão-Ponte do Imaruim (Circular)":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/guarda-do-cubatao-estacao-palhoca-circular,15");
                 break;
             case "Guarda do Cubatão-Florianópolis":
@@ -165,7 +169,7 @@ public class Act_Empresas_Jotur_WebView extends AppCompatActivity {
             case "Madri/Caminho Novo-Florianópolis":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/madri-caminho-novo-florianopolis,2g");
                 break;
-            case "Madri-Estação Palhoça":
+            case "Madri-Palhoça":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/madri-via-pagani-estacao-palhoca,1k");
                 break;
             case "Madri-Florianópolis":
@@ -192,7 +196,7 @@ public class Act_Empresas_Jotur_WebView extends AppCompatActivity {
             case "Pinheira-Enseada do Brito (Escolar)":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/pinheira-enseada-do-brito-escolar,35");
                 break;
-            case "Pinheira-Estação Palhoça":
+            case "Pinheira-Ponte do Imaruim":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/pinheira-estacao-palhoca,2q");
                 break;
             case "Pinheira-Florianópolis (Executivo)":
@@ -204,7 +208,7 @@ public class Act_Empresas_Jotur_WebView extends AppCompatActivity {
             case "São José-Florianópolis":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/sao-jose,2/sao-jose-florianopolis-circular,2a");
                 break;
-            case "São Sebastião-Estação Palhoça":
+            case "São Sebastião-Palhoça":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/sao-sebastiao-estacao-palhoca,1i");
                 break;
             case "São Sebastião-Florianópolis":
@@ -219,7 +223,7 @@ public class Act_Empresas_Jotur_WebView extends AppCompatActivity {
             case "Terra Nova-Estação Palhoça":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/terra-nova-via-bela-vista-estacao-palhoca,1f");
                 break;
-            case "Unisul-Estação Palhoça":
+            case "Unisul-Ponte do Imaruim":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/unisul-estacao-palhoca,1t");
                 break;
             case "Vila Nova-Estação Palhoça":
@@ -229,6 +233,126 @@ public class Act_Empresas_Jotur_WebView extends AppCompatActivity {
                 WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/vila-nova-florianopolis,9");
                 break;
         }
+
+        // Ação do botão Mapa
+        Btn_Mapa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                switch (parametroNomeLinha) {
+                    case "Aririu-Florianpolis":
+                        Intent linha0355 = new Intent(Act_Empresas_Jotur_WebView.this, Act_Mapas_WebView.class);
+                        linha0355.putExtra("Nome da Linha", "Aririu-Florianpolis");
+                        startActivity(linha0355);
+                        break;
+                    case "Barra do Aririu-Barreiros":
+                        Intent linha0270 = new Intent(Act_Empresas_Jotur_WebView.this, Act_Mapas_WebView.class);
+                        linha0270.putExtra("Nome da Linha", "Barra do Aririu-Barreiros");
+                        startActivity(linha0270);
+                        break;
+                    case "Barra do Aririu-Ponte do Imaruim (Circular)":
+                        Intent linha213 = new Intent(Act_Empresas_Jotur_WebView.this, Act_Mapas_WebView.class);
+                        linha213.putExtra("Nome da Linha", "Barra do Aririu-Ponte do Imaruim (Circular)");
+                        startActivity(linha213);
+                        break;
+                    case "Barra do Aririu-Florianópolis":
+                        Intent linha0361 = new Intent(Act_Empresas_Jotur_WebView.this, Act_Mapas_WebView.class);
+                        linha0361.putExtra("Nome da Linha", "Barra do Aririu-Florianópolis");
+                        startActivity(linha0361);
+                        break;
+                    case "Bela Vista-Ponte do Imaruim":
+                        Intent linha403 = new Intent(Act_Empresas_Jotur_WebView.this, Act_Mapas_WebView.class);
+                        linha403.putExtra("Nome da Linha", "Bela Vista-Ponte do Imaruim");
+                        startActivity(linha403);
+                        break;
+                    case "Bela Vista-Florianópolis":
+                        Intent linha7161 = new Intent(Act_Empresas_Jotur_WebView.this, Act_Mapas_WebView.class);
+                        linha7161.putExtra("Nome da Linha", "Bela Vista-Florianópolis");
+                        startActivity(linha7161);
+                        break;
+                    case "Caminho Novo/Terra Nova-Palhoça":
+                        Intent linha543 = new Intent(Act_Empresas_Jotur_WebView.this, Act_Mapas_WebView.class);
+                        linha543.putExtra("Nome da Linha", "Caminho Novo/Terra Nova-Palhoça");
+                        startActivity(linha543);
+                        break;
+                    case "Caminho Novo/Terra Nova-Florianópolis":
+                        Intent linha0280 = new Intent(Act_Empresas_Jotur_WebView.this, Act_Mapas_WebView.class);
+                        linha0280.putExtra("Nome da Linha", "Caminho Novo/Terra Nova-Florianópolis");
+                        startActivity(linha0280);
+                        break;
+                    case "Cidade Univercitária - Interbairros (Circular)":
+                        Intent linha620 = new Intent(Act_Empresas_Jotur_WebView.this, Act_Mapas_WebView.class);
+                        linha620.putExtra("Nome da Linha", "Cidade Univercitária - Interbairros (Circular)");
+                        startActivity(linha620);
+                        break;
+                    case "Diretão":
+                        Intent linha018 = new Intent(Act_Empresas_Jotur_WebView.this, Act_Mapas_WebView.class);
+                        linha018.putExtra("Nome da Linha", "Diretão");
+                        startActivity(linha018);
+                        break;
+                    case "Enseada do Brito-Ponte do Imaruim":
+                        Intent linha013 = new Intent(Act_Empresas_Jotur_WebView.this, Act_Mapas_WebView.class);
+                        linha013.putExtra("Nome da Linha", "Enseada do Brito-Ponte do Imaruim");
+                        startActivity(linha013);
+                        break;
+                    case "Guarda do Cubatão-Ponte do Imaruim":
+                        Intent linha303 = new Intent(Act_Empresas_Jotur_WebView.this, Act_Mapas_WebView.class);
+                        linha303.putExtra("Nome da Linha", "Guarda do Cubatão-Ponte do Imaruim");
+                        startActivity(linha303);
+                        break;
+                    case "Guarda do Cubatão-Ponte do Imaruim (Circular)":
+                        Intent linha323 = new Intent(Act_Empresas_Jotur_WebView.this, Act_Mapas_WebView.class);
+                        linha323.putExtra("Nome da Linha", "Guarda do Cubatão-Ponte do Imaruim (Circular)");
+                        startActivity(linha323);
+                        break;
+                    case "Guarda do Cubatão-Florianópolis":
+                        Intent linha0350 = new Intent(Act_Empresas_Jotur_WebView.this, Act_Mapas_WebView.class);
+                        linha0350.putExtra("Nome da Linha", "Guarda do Cubatão-Florianópolis");
+                        startActivity(linha0350);
+                        break;
+                    case "Interbairros (Bela Vista/Passa Vinte)":
+                        Intent linha101 = new Intent(Act_Empresas_Jotur_WebView.this, Act_Mapas_WebView.class);
+                        linha101.putExtra("Nome da Linha", "Interbairros (Bela Vista/Passa Vinte)");
+                        startActivity(linha101);
+                        break;
+                    case "Madri-Palhoça":
+                        Intent linha533 = new Intent(Act_Empresas_Jotur_WebView.this, Act_Mapas_WebView.class);
+                        linha533.putExtra("Nome da Linha", "Madri-Palhoça");
+                        startActivity(linha533);
+                        break;
+                    case "Palhoça-Biguaçu":
+                        Intent linha1330 = new Intent(Act_Empresas_Jotur_WebView.this, Act_Mapas_WebView.class);
+                        linha1330.putExtra("Nome da Linha", "Palhoça-Biguaçu");
+                        startActivity(linha1330);
+                        break;
+                    case "Pinheira-Ponte do Imaruim":
+                        Intent linha006 = new Intent(Act_Empresas_Jotur_WebView.this, Act_Mapas_WebView.class);
+                        linha006.putExtra("Nome da Linha", "Pinheira-Ponte do Imaruim");
+                        startActivity(linha006);
+                        break;
+                    case "São José-Florianópolis":
+                        Intent linha0372 = new Intent(Act_Empresas_Jotur_WebView.this, Act_Mapas_WebView.class);
+                        linha0372.putExtra("Nome da Linha", "São José-Florianópolis");
+                        startActivity(linha0372);
+                        break;
+                    case "São Sebastião-Palhoça":
+                        Intent linha503 = new Intent(Act_Empresas_Jotur_WebView.this, Act_Mapas_WebView.class);
+                        linha503.putExtra("Nome da Linha", "São Sebastião-Palhoça");
+                        startActivity(linha503);
+                        break;
+                    case "São Sebastião-Florianópolis":
+                        Intent linha0242 = new Intent(Act_Empresas_Jotur_WebView.this, Act_Mapas_WebView.class);
+                        linha0242.putExtra("Nome da Linha", "São Sebastião-Florianópolis");
+                        startActivity(linha0242);
+                        break;
+                    case "Unisul-Ponte do Imaruim":
+                        Intent linha630 = new Intent(Act_Empresas_Jotur_WebView.this, Act_Mapas_WebView.class);
+                        linha630.putExtra("Nome da Linha", "Unisul-Ponte do Imaruim");
+                        startActivity(linha630);
+                        break;
+
+                }
+            }
+        });
 
     }
 }

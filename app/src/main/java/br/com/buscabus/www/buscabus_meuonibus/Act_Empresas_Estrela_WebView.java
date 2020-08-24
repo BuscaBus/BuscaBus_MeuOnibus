@@ -40,7 +40,7 @@ public class Act_Empresas_Estrela_WebView extends AppCompatActivity {
             case "Barreiros-Sede":
                 WebView.loadUrl("http://insulartc.com.br/estrela/ws1/linhas/horarios/interbairros/0110.htm");
                 break;
-            case "Campinas":
+            case "Campinas via Kobrasol":
                 WebView.loadUrl("http://insulartc.com.br/estrela/ws1/linhas/horarios/intermunicipal/0317.htm");
                 break;
             case "Campinas via Ginásio":
@@ -64,7 +64,7 @@ public class Act_Empresas_Estrela_WebView extends AppCompatActivity {
             case "Executivo Zenaide/Barreiros via Estreito":
                 WebView.loadUrl("http://insulartc.com.br/estrela/ws1/linhas/horarios/intermunicipal/1311.htm");
                 break;
-            case "Forquilhas":
+            case "Forquilhas via Los Angeles":
                 WebView.loadUrl("http://insulartc.com.br/estrela/ws1/linhas/horarios/intermunicipal/0039.htm");
                 break;
             case "Forquilhas-Kobrasol":
@@ -131,9 +131,9 @@ public class Act_Empresas_Estrela_WebView extends AppCompatActivity {
                         linha110.putExtra("Nome da Linha", "Barreiros-Sede");
                         startActivity(linha110);
                         break;
-                    case "Campinas":
+                    case "Campinas via Kobrasol":
                         Intent linha3170 = new Intent(Act_Empresas_Estrela_WebView.this, Act_Mapas_WebView.class);
-                        linha3170.putExtra("Nome da Linha", "Campinas");
+                        linha3170.putExtra("Nome da Linha", "Campinas via Kobrasol");
                         startActivity(linha3170);
                         break;
                     case "Campinas via Ginásio":
@@ -171,9 +171,9 @@ public class Act_Empresas_Estrela_WebView extends AppCompatActivity {
                         linha1311.putExtra("Nome da Linha", "Executivo Zenaide/Barreiros via Estreito");
                         startActivity(linha1311);
                         break;
-                    case "Forquilhas":
+                    case "Forquilhas via Los Angeles":
                         Intent linha390 = new Intent(Act_Empresas_Estrela_WebView.this, Act_Mapas_WebView.class);
-                        linha390.putExtra("Nome da Linha", "Forquilhas");
+                        linha390.putExtra("Nome da Linha", "Forquilhas via Los Angeles");
                         startActivity(linha390);
                         break;
                     case "Forquilhas-Kobrasol":
@@ -208,7 +208,7 @@ public class Act_Empresas_Estrela_WebView extends AppCompatActivity {
                         break;
                     case "Lisboa":
                         Intent linha7631 = new Intent(Act_Empresas_Estrela_WebView.this, Act_Mapas_WebView.class);
-                        linha7631.putExtra("Nome da Linha", "P.R.Lisboa");
+                        linha7631.putExtra("Nome da Linha", "Lisboa");
                         startActivity(linha7631);
                         break;
                     case "Potecas":

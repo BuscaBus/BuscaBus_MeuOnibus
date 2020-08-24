@@ -29,10 +29,10 @@ public class Act_Empresas_Imperatriz_WebView extends AppCompatActivity {
         // Declaração dos botão Mapa
         final Button Btn_Mapa = (Button) findViewById(R.id.Btn_Mapa);
 
-        // Parametro para exibir Mapa
+        // Parametro para exibir Horários
         switch(parametroNomeLinha) {
             case "Águas Mornas-Florianópolis":
-                WebView.loadUrl("http://www.avimperatriz.com.br/site/horariosDeOnibus/6240-aguas-mornas-florianopolis/50");
+                WebView.loadUrl("http://www.avimperatriz.com.br/site/horariosDeOnibus");
                 break;
             case "Alto Aririu-Florianópolis":
                 WebView.loadUrl("http://www.avimperatriz.com.br/site/horariosDeOnibus/6281-alto-aririu-florianopolis/6280");
@@ -50,7 +50,7 @@ public class Act_Empresas_Imperatriz_WebView extends AppCompatActivity {
                 WebView.loadUrl("http://www.avimperatriz.com.br/site/horariosDeOnibus/681-aririu-caldas-da-imperatriz/681");
                 break;
             case "Caldas-Florianópolis":
-                WebView.loadUrl("http://www.avimperatriz.com.br/site/horariosDeOnibus/680-florianopolis-caldas-da-imperatriz/680");
+                WebView.loadUrl("http://www.avimperatriz.com.br/site/horariosDeOnibus");
                 break;
             case "Caldas-Florianópolis via B. São Francisco":
                 WebView.loadUrl("http://www.avimperatriz.com.br/site/horariosDeOnibus/682-florianopolis-caldas-da-imperatriz/682");
@@ -71,7 +71,7 @@ public class Act_Empresas_Imperatriz_WebView extends AppCompatActivity {
                 WebView.loadUrl("http://www.avimperatriz.com.br/site/horariosDeOnibus/830-santa-isabel-florianopolis/830");
                 break;
             case "Santo Amaro-Florianópolis":
-                WebView.loadUrl("http://www.avimperatriz.com.br/site/horariosDeOnibus/670-s-a-imperatriz-florianopolis/670");
+                WebView.loadUrl("http://www.avimperatriz.com.br/site/horariosDeOnibus");
                 break;
             case "Santo Amaro-Florianópolis via B. São Francisco":
                 WebView.loadUrl("http://www.avimperatriz.com.br/site/horariosDeOnibus/671-s-a-imperatriz-florianopolis/671");
@@ -104,9 +104,9 @@ public class Act_Empresas_Imperatriz_WebView extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 switch (parametroNomeLinha) {
-                    case "Aguas Mornas-Florianópolis":
+                    case "Águas Mornas-Florianópolis":
                         Intent linha6240 = new Intent(Act_Empresas_Imperatriz_WebView.this, Act_Mapas_WebView.class);
-                        linha6240.putExtra("Nome da Linha", "Aguas Mornas-Florianópolis");
+                        linha6240.putExtra("Nome da Linha", "Águas Mornas-Florianópolis");
                         startActivity(linha6240);
                         break;
                     case "Alto Aririu-Florianópolis":

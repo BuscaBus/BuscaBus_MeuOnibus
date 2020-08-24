@@ -187,7 +187,7 @@ public class Act_Mapas_WebView extends AppCompatActivity {
             case "185 - UFSC Semidireto":
                 WebView.loadUrl("https://goo.gl/maps/Phagd4J4xLEKuGmc7");
                 break;
-            case "186 - Corredor Sudoeste Semidireto":
+            case "186 - Corredor Sudoeste via Túnel":
                 WebView.loadUrl("https://goo.gl/maps/tKB3CPhoG37jyPbE9");
                 break;
             case "191 - TITRI-TICEN via Transcaeira":
@@ -229,11 +229,11 @@ public class Act_Mapas_WebView extends AppCompatActivity {
             case "250 - Forte-Canasvieiras":
                 WebView.loadUrl("https://goo.gl/maps/EJYgJqH8vX6NNVwGA");
                 break;
-            case "260 - Cachoeira":
+            case "260 - Cachoeira do Bom Jesus":
                 WebView.loadUrl("https://goo.gl/maps/17GVEeKBr5pSwW4i9");
                 break;
             case "261 - Capivari via Graciliano Gomes":
-                WebView.loadUrl("https://goo.gl/maps/CvCgCHQ2spqtHfep6");
+                WebView.loadUrl("https://goo.gl/maps/qAuo4Zi1AGYhsekT7");
                 break;
             case "262 - Circular Canasvieiras":
                 WebView.loadUrl("https://goo.gl/maps/qkyKdhe1Zx3FgQpg9");
@@ -300,6 +300,15 @@ public class Act_Mapas_WebView extends AppCompatActivity {
                 break;
             case "286 - TICAN-Sapiens Parque":
                 WebView.loadUrl("https://goo.gl/maps/jW6GtKLcZLMPNVmG9");
+                break;
+            case "287 - Rio Vermelho via Vargem Grande":
+                WebView.loadUrl("https://goo.gl/maps/h6AHaTaTgC1Hnhwi6");
+                break;
+            case "288 - Circular Rio Vermelho":
+                WebView.loadUrl("https://goo.gl/maps/TiWM3cXQzeEayLLt9");
+                break;
+            case "289 - Vargem Grande via Rio Vermelho":
+                WebView.loadUrl("https://goo.gl/maps/BP5gpW5MNoiZo8bo6");
                 break;
             case "291 - Circular Canasvieiras/Praia Brava":
                 WebView.loadUrl("https://goo.gl/maps/zzDyTFuZn3UscGrs5");
@@ -400,7 +409,7 @@ public class Act_Mapas_WebView extends AppCompatActivity {
             case "467 - Tapera/Saco dos Limões":
                 WebView.loadUrl("https://goo.gl/maps/SVtN4sLsJuDA16SA8");
                 break;
-            case "468 - TIRIO-Aeroporto":
+            case "468 - TIRIO-Aeroporto via Carianos":
                 WebView.loadUrl("https://goo.gl/maps/QzzDELYLSnBWwrJU9");
                 break;
             case "469 - Tapera-Rio Tavares":
@@ -418,7 +427,7 @@ public class Act_Mapas_WebView extends AppCompatActivity {
             case "474 - Morro das Pedras via Gramal":
                 WebView.loadUrl("https://goo.gl/maps/KZpj8NY4yyUXk7Mm7");
                 break;
-            case "477 - Circular Tapera-Aeroporto-Carianos":
+            case "477 - TIRIO-Aeroporto via Tapera":
                 WebView.loadUrl("https://goo.gl/maps/8Wo1azHzY3Zzuknb7");
                 break;
             case "500 - Madrugadão Sul":
@@ -526,7 +535,7 @@ public class Act_Mapas_WebView extends AppCompatActivity {
             case "843 - TILAG-TIRIO via LIC":
                 WebView.loadUrl("https://goo.gl/maps/ospkPsjbB7zoRNcW6");
                 break;
-            case "844 - Bairro de Fátima":
+            case "844 - Bairro de Fátima via Aracy Vaz Callado":
                 WebView.loadUrl("https://goo.gl/maps/WmNe2anns55MuUAR7");
                 break;
             case "845 - TILAG-TITRI via Córrego Grande":
@@ -797,7 +806,7 @@ public class Act_Mapas_WebView extends AppCompatActivity {
             case "São Miguel":
                 WebView.loadUrl("https://goo.gl/maps/tYaiykuERZbWbq916");
                 break;
-            case "Saudades":
+            case "Saudade":
                 WebView.loadUrl("https://goo.gl/maps/Kid3pukSggPHGA6M9");
                 break;
             case "Serraria-Forquilhinhas":
@@ -831,7 +840,7 @@ public class Act_Mapas_WebView extends AppCompatActivity {
             case "Barreiros-Sede":
                 WebView.loadUrl("https://goo.gl/maps/hHk3NhTATQkQTpNZ7");
                 break;
-            case "Campinas":
+            case "Campinas via Kobrasol":
                 WebView.loadUrl("https://goo.gl/maps/ApQ15mzLbLYoPNZQ6");
                 break;
             case "Campinas via Ginásio":
@@ -855,7 +864,7 @@ public class Act_Mapas_WebView extends AppCompatActivity {
             case "Executivo Zenaide/Barreiros via Estreito":
                 WebView.loadUrl("https://goo.gl/maps/XpDudrDQbBj8Fmsu6");
                 break;
-            case "Forquilhas":
+            case "Forquilhas via Los Angeles":
                 WebView.loadUrl("https://goo.gl/maps/PPeLRN7WoJ9nrVG9A");
                 break;
             case "Forquilhas-Kobrasol":
@@ -904,7 +913,7 @@ public class Act_Mapas_WebView extends AppCompatActivity {
 
         // LINHAS IMPERATRIZ
         switch(parametroNomeLinha) {
-            case "Aguas Mornas-Florianópolis":
+            case "Águas Mornas-Florianópolis":
                 WebView.loadUrl("https://goo.gl/maps/Td4qc1qiziXP7rds6");
                 break;
             case "Alto Aririu-Florianópolis":
@@ -936,28 +945,98 @@ public class Act_Mapas_WebView extends AppCompatActivity {
                 break;
         }
 
+        // LINHAS JOTUR
+        switch(parametroNomeLinha) {
+            case "Aririu-Florianpolis":
+                WebView.loadUrl("https://www.google.com/maps/d/edit?mid=1IkGF0CKFOKYDczVnpCSyTxv-iZhtloSW&usp=sharing");
+                break;
+            case "Barra do Aririu-Barreiros":
+                WebView.loadUrl("https://www.google.com/maps/d/edit?mid=1O6W-G8qOEpapAHbjEkgfWOA6i5-_JxSU&usp=sharing");
+                break;
+            case "Barra do Aririu-Ponte do Imaruim (Circular)":
+                WebView.loadUrl("https://www.google.com/maps/d/edit?mid=1ebQ5NNbBcLq54mF_Vu9GA-i-umCcu_QZ&usp=sharing");
+                break;
+            case "Barra do Aririu-Florianópolis":
+                WebView.loadUrl("https://www.google.com/maps/d/edit?mid=1DY1pr3Vqu3X4YgmijFFE3jGixBxZ90NA&usp=sharing");
+                break;
+            case "Bela Vista-Ponte do Imaruim":
+                WebView.loadUrl("https://www.google.com/maps/d/edit?mid=1jnK6edkYjFnwMNyYWQ22IAGzKvAFwaKR&usp=sharing");
+                break;
+            case "Bela Vista-Florianópolis":
+                WebView.loadUrl("https://www.google.com/maps/d/edit?mid=19z3gam1h_AqBzzGJ53zNzWYzTwXcryGI&usp=sharing");
+                break;
+            case "Caminho Novo/Terra Nova-Palhoça":
+                WebView.loadUrl("https://www.google.com/maps/d/edit?mid=1iHUdChAQkyeacBt2xS5_5CWj4JPoqhyM&usp=sharing");
+                break;
+            case "Caminho Novo/Terra Nova-Florianópolis":
+                WebView.loadUrl("https://www.google.com/maps/d/edit?mid=1HyAzCf0EaTLtO7pxt4K3xhQSHBDJ1gSn&usp=sharing");
+                break;
+            case "Cidade Univercitária - Interbairros (Circular)":
+                WebView.loadUrl("https://www.google.com/maps/d/edit?mid=1jqxI5s8SirqLOV0R-6sWNnsq_VHXnsWJ&usp=sharing");
+                break;
+            case "Diretão":
+                WebView.loadUrl("https://www.google.com/maps/d/edit?mid=1ULgdQ3NTpmSz5jFQPdUEkNwhls3VJRgp&usp=sharing");
+                break;
+            case "Enseada do Brito-Ponte do Imaruim":
+                WebView.loadUrl("https://www.google.com/maps/d/edit?mid=1q7mArkAeNgLP3jPNmnttWmRvY4oMoYMP&usp=sharing");
+                break;
+            case "Guarda do Cubatão-Ponte do Imaruim":
+                WebView.loadUrl("https://www.google.com/maps/d/edit?mid=1DMEt0XbiINe47Riolpe6dnFpH9vCaSAJ&usp=sharing");
+                break;
+            case "Guarda do Cubatão-Ponte do Imaruim (Circular)":
+                WebView.loadUrl("https://www.google.com/maps/d/edit?mid=1tujm4UazhyJAwfCekjLtqCxGWOLBhzlZ&usp=sharing");
+                break;
+            case "Guarda do Cubatão-Florianópolis":
+                WebView.loadUrl("https://www.google.com/maps/d/edit?mid=1WTSHoaql24dfpwGaLJ2aXRZ4mTrHU8RT&usp=sharing");
+                break;
+            case "Interbairros (Bela Vista/Passa Vinte)":
+                WebView.loadUrl("https://www.google.com/maps/d/edit?mid=1hUUrzIfclRjAVc9_gYh1K1K_qB4SP6bn&usp=sharing");
+                break;
+            case "Madri-Palhoça":
+                WebView.loadUrl("https://www.google.com/maps/d/edit?mid=1YZLzDV1oQwkYty-tBxd2_N1unuOdxrT5&usp=sharing");
+                break;
+            case "Palhoça-Biguaçu":
+                WebView.loadUrl("https://www.google.com/maps/d/edit?mid=1oRsRhJQfoY-s8ddoO5vLyKnnEtCirqv7&usp=sharing");
+                break;
+            case "Pinheira-Ponte do Imaruim":
+                WebView.loadUrl("https://www.google.com/maps/d/edit?mid=1qz8iL26FdyZ36UWVoUkBwF2ot4ra0_-F&usp=sharing");
+                break;
+            case "São José-Florianópolis":
+                WebView.loadUrl("https://www.google.com/maps/d/edit?mid=1XoFJxFpmgZwVAIDz3rX-gQ8LZU8VLNGO&usp=sharing");
+                break;
+            case "São Sebastião-Palhoça":
+                WebView.loadUrl("https://www.google.com/maps/d/edit?mid=1La_4btc_8Hp5WG4Ww3qRruxgJ5SyZqOS&usp=sharing");
+                break;
+            case "São Sebastião-Florianópolis":
+                WebView.loadUrl("https://www.google.com/maps/d/edit?mid=1ZP6mLGN6tYrfZTyRO8qy_QQXjT_gLh3A&usp=sharing");
+                break;
+            case "Unisul-Ponte do Imaruim":
+                WebView.loadUrl("https://www.google.com/maps/d/edit?mid=1m8AY2DJYVYrIknn2DqiwIh7IfzG2EV1Y&usp=sharing");
+                break;
+        }
+
         // LINHAS SANTA TEREZINHA
         switch(parametroNomeLinha) {
             case "Angelina-Florianópolis":
                 WebView.loadUrl("https://goo.gl/maps/Aa4BHCXbjN9ESq278");
                 break;
             case "Flor de Nápolis-Florianópolis":
-                WebView.loadUrl("https://goo.gl/maps/Uoj3ep7aiUCRB145A");
+                WebView.loadUrl("https://www.google.com/maps/d/edit?mid=16vtbDvij3_Z5fK-0PerDnRS0fMeIw7gh&usp=sharing");
                 break;
             case "Jardim Pinheiros-Kobrasol":
                 WebView.loadUrl("https://goo.gl/maps/XUQz9CadFZfE8bw88");
                 break;
             case "Santana-Florianópolis":
-                WebView.loadUrl("https://goo.gl/maps/zvpMs9ejgHh2Yng48");
+                WebView.loadUrl("https://www.google.com/maps/d/edit?mid=1RANGZ8Mthj3qTwJPZVfUxKulRGWRI_F-&usp=sharing");
                 break;
             case "Santana-Kobrasol":
                 WebView.loadUrl("https://goo.gl/maps/nCJwKBSZ3jbqYGym8");
                 break;
             case "São Pedro de Alcântara-Florianópolis":
-                WebView.loadUrl("https://goo.gl/maps/AkWyt38UTKL58NRa6");
+                WebView.loadUrl("https://www.google.com/maps/d/edit?mid=1iRvEZOUFv0Zgtj9ZGAtSX3-ahfy69sNh&usp=sharing");
                 break;
             case "Sertão do Maruim-Florianópolis":
-                WebView.loadUrl("https://goo.gl/maps/yLdNHEb75J31CEgz7");
+                WebView.loadUrl("https://www.google.com/maps/d/edit?mid=16zKiFMnSm90kpeqDNB5TvpSpM-rzSRTe&usp=sharing");
                 break;
             case "Vila Formosa-Florianópolis":
                 WebView.loadUrl("https://goo.gl/maps/KL3pnUvjntiZqvFj9");

@@ -308,6 +308,15 @@ public class Act_Empresas_CFenix_WebView extends AppCompatActivity {
             case "286 - TICAN-Sapiens Parque":
                 WebView.loadUrl("https://www.consorciofenix.com.br/horarios/tican-sapiens-parque,286");
                 break;
+            case "287 - Rio Vermelho via Vargem Grande":
+                WebView.loadUrl("https://www.consorciofenix.com.br/horarios/rio-vermelho-via-vargem-grande,287");
+                break;
+            case "288 - Circular Rio Vermelho":
+                WebView.loadUrl("https://www.consorciofenix.com.br/horarios/circular-rio-vermelho,288");
+                break;
+            case "289 - Vargem Grande via Rio Vermelho":
+                WebView.loadUrl("https://www.consorciofenix.com.br/horarios/vargem-grande-via-rio-vermelho,289");
+                break;
             case "291 - Circular Canasvieiras/Praia Brava":
                 WebView.loadUrl("https://www.consorciofenix.com.br/horarios/circular-canasvieiras-praia-brava,291");
                 break;
@@ -539,8 +548,8 @@ public class Act_Empresas_CFenix_WebView extends AppCompatActivity {
             case "843 - TILAG-TIRIO via LIC":
                 WebView.loadUrl("https://www.consorciofenix.com.br/horarios/tilag-tirio-via-lic,843");
                 break;
-            case "844 - Bairro de Fátima":
-                WebView.loadUrl("https://www.consorciofenix.com.br/horarios/bairro-de-fatima,844");
+            case "844 - Bairro de Fátima via Aracy Vaz Callado":
+                WebView.loadUrl("https://www.consorciofenix.com.br/horarios/bairro-de-fatima-via-aracy-vaz-callado,844");
                 break;
             case "845 - TILAG-TITRI via Córrego Grande":
                 WebView.loadUrl("https://www.consorciofenix.com.br/horarios/tilag-titri-via-corrego-grande,845");
@@ -727,24 +736,24 @@ public class Act_Empresas_CFenix_WebView extends AppCompatActivity {
                         linha134.putExtra("Nome da Linha", "134 - TITRI-TICEN via Beira Mar");
                         startActivity(linha134);
                         break;
-                    case "135 - Volta ao Morro/Carvoeira Norte":
+                    case "135 - Volta ao Morro/Carvoeira Norte via TITRI":
                         Intent linha135 = new Intent(Act_Empresas_CFenix_WebView.this, Act_Mapas_WebView.class);
-                        linha135.putExtra("Nome da Linha", "135 - Volta ao Morro/Carvoeira Norte");
+                        linha135.putExtra("Nome da Linha", "135 - Volta ao Morro/Carvoeira Norte via TITRI");
                         startActivity(linha135);
                         break;
-                    case "136 - Volta ao Morro/Carvoeira Sul":
+                    case "136 - Volta ao Morro/Carvoeira Sul via TITRI":
                         Intent linha136 = new Intent(Act_Empresas_CFenix_WebView.this, Act_Mapas_WebView.class);
-                        linha136.putExtra("Nome da Linha", "136 - Volta ao Morro/Carvoeira Sul");
+                        linha136.putExtra("Nome da Linha", "136 - Volta ao Morro/Carvoeira Sul via TITRI");
                         startActivity(linha136);
                         break;
-                    case "137 - Volta ao Morro/Pantanal Norte":
+                    case "137 - Volta ao Morro/Pantanal Norte via TITRI":
                         Intent linha137 = new Intent(Act_Empresas_CFenix_WebView.this, Act_Mapas_WebView.class);
-                        linha137.putExtra("Nome da Linha", "137 - Volta ao Morro/Pantanal Norte");
+                        linha137.putExtra("Nome da Linha", "137 - Volta ao Morro/Pantanal Norte via TITRI");
                         startActivity(linha137);
                         break;
-                    case "138 - Volta ao Morro/Pantanal Sul":
+                    case "138 - Volta ao Morro/Pantanal Sul via TITRI":
                         Intent linha138 = new Intent(Act_Empresas_CFenix_WebView.this, Act_Mapas_WebView.class);
-                        linha138.putExtra("Nome da Linha", "138 - Volta ao Morro/Pantanal Sul");
+                        linha138.putExtra("Nome da Linha", "138 - Volta ao Morro/Pantanal Sul via TITRI");
                         startActivity(linha138);
                         break;
                     case "150 - TICEN-Itacorubi via Beira Mar":
@@ -867,9 +876,9 @@ public class Act_Empresas_CFenix_WebView extends AppCompatActivity {
                         linha182.putExtra("Nome da Linha", "182 - Tecnópolis");
                         startActivity(linha182);
                         break;
-                    case "183 - Corredor Sudoeste":
+                    case "183 - Corredor Sudoeste via Saco dos Limões":
                         Intent linha183 = new Intent(Act_Empresas_CFenix_WebView.this, Act_Mapas_WebView.class);
-                        linha183.putExtra("Nome da Linha", "183 - Corredor Sudoeste");
+                        linha183.putExtra("Nome da Linha", "183 - Corredor Sudoeste via Saco dos Limões");
                         startActivity(linha183);
                         break;
                     case "184 - UDESC via Beira Mar":
@@ -882,9 +891,9 @@ public class Act_Empresas_CFenix_WebView extends AppCompatActivity {
                         linha185.putExtra("Nome da Linha", "185 - UFSC Semidireto");
                         startActivity(linha185);
                         break;
-                    case "186 - Corredor Sudoeste Semidireto":
+                    case "186 - Corredor Sudoeste via Túnel":
                         Intent linha186 = new Intent(Act_Empresas_CFenix_WebView.this, Act_Mapas_WebView.class);
-                        linha186.putExtra("Nome da Linha", "186 - Corredor Sudoeste Semidireto");
+                        linha186.putExtra("Nome da Linha", "186 - Corredor Sudoeste via Túnel");
                         startActivity(linha186);
                         break;
                     case "191 - TITRI-TICEN via Transcaeira":
@@ -956,6 +965,11 @@ public class Act_Empresas_CFenix_WebView extends AppCompatActivity {
                         Intent linha260 = new Intent(Act_Empresas_CFenix_WebView.this, Act_Mapas_WebView.class);
                         linha260.putExtra("Nome da Linha", "260 - Cachoeira do Bom Jesus");
                         startActivity(linha260);
+                        break;
+                    case "261 - Capivari via Graciliano Gomes":
+                        Intent linha261 = new Intent(Act_Empresas_CFenix_WebView.this, Act_Mapas_WebView.class);
+                        linha261.putExtra("Nome da Linha", "261 - Capivari via Graciliano Gomes");
+                        startActivity(linha261);
                         break;
                     case "262 - Circular Canasvieiras":
                         Intent linha262 = new Intent(Act_Empresas_CFenix_WebView.this, Act_Mapas_WebView.class);
@@ -1066,6 +1080,21 @@ public class Act_Empresas_CFenix_WebView extends AppCompatActivity {
                         Intent linha286 = new Intent(Act_Empresas_CFenix_WebView.this, Act_Mapas_WebView.class);
                         linha286.putExtra("Nome da Linha", "286 - TICAN-Sapiens Parque");
                         startActivity(linha286);
+                        break;
+                    case "287 - Rio Vermelho via Vargem Grande":
+                        Intent linha287 = new Intent(Act_Empresas_CFenix_WebView.this, Act_Mapas_WebView.class);
+                        linha287.putExtra("Nome da Linha", "287 - Rio Vermelho via Vargem Grande");
+                        startActivity(linha287);
+                        break;
+                    case "288 - Circular Rio Vermelho":
+                        Intent linha288 = new Intent(Act_Empresas_CFenix_WebView.this, Act_Mapas_WebView.class);
+                        linha288.putExtra("Nome da Linha", "288 - Circular Rio Vermelho");
+                        startActivity(linha288);
+                        break;
+                    case "289 - Vargem Grande via Rio Vermelho":
+                        Intent linha289 = new Intent(Act_Empresas_CFenix_WebView.this, Act_Mapas_WebView.class);
+                        linha289.putExtra("Nome da Linha", "289 - Vargem Grande via Rio Vermelho");
+                        startActivity(linha289);
                         break;
                     case "291 - Circular Canasvieiras/Praia Brava":
                         Intent linha291 = new Intent(Act_Empresas_CFenix_WebView.this, Act_Mapas_WebView.class);
@@ -1452,9 +1481,9 @@ public class Act_Empresas_CFenix_WebView extends AppCompatActivity {
                         linha843.putExtra("Nome da Linha", "843 - TILAG-TIRIO via LIC");
                         startActivity(linha843);
                         break;
-                    case "844 - Bairro de Fátima":
+                    case "844 - Bairro de Fátima via Aracy Vaz Callado":
                         Intent linha844 = new Intent(Act_Empresas_CFenix_WebView.this, Act_Mapas_WebView.class);
-                        linha844.putExtra("Nome da Linha", "844 - Bairro de Fátima");
+                        linha844.putExtra("Nome da Linha", "844 - Bairro de Fátima via Aracy Vaz Callado");
                         startActivity(linha844);
                         break;
                     case "845 - TILAG-TITRI via Córrego Grande":

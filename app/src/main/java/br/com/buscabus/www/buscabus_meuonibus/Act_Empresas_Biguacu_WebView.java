@@ -29,7 +29,7 @@ public class Act_Empresas_Biguacu_WebView extends AppCompatActivity {
         // Declaração dos botão Mapa
         final Button Btn_Mapa = (Button) findViewById(R.id.Btn_Mapa);
 
-        // Parametro para exibir Mapa
+        // Parametro para exibir Horarios
         switch(parametroNomeLinha) {
             case "Antônio Carlos-Florianópolis":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/10500");
@@ -226,8 +226,8 @@ public class Act_Empresas_Biguacu_WebView extends AppCompatActivity {
             case "São Miguel":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/10900");
                 break;
-            case "Saudades":
-                WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/44303");
+            case "Saudade":
+                WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/44302");
                 break;
             case "Serraria-Forquilhinhas":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/90700");
