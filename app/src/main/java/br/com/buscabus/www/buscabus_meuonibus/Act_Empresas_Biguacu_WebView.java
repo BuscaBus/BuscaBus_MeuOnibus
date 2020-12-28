@@ -31,9 +31,9 @@ public class Act_Empresas_Biguacu_WebView extends AppCompatActivity {
             case "Antônio Carlos-Florianópolis":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/10500");
                 break;
-            case "Antônio Carlos-Biguaçu":
+            /*case "Antônio Carlos-Biguaçu":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/64100");
-                break;
+                break;*/
             case "Araucária":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/11302");
                 break;
@@ -46,31 +46,31 @@ public class Act_Empresas_Biguacu_WebView extends AppCompatActivity {
             case "Avenida das Torres":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/84500");
                 break;
-            case "Avenida das Torres-Kobrasol":
+            /*case "Avenida das Torres-Kobrasol":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/90300");
-                break;
+                break;*/
             case "Bairro Ipiranga":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/10400");
                 break;
-            case "Bairro Ipiranga via Expressa":
+            /*case "Bairro Ipiranga via Expressa":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/66800");
-                break;
+                break;*/
             case "Bairro São Pedro":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/10200");
                 break;
-            case "Bairro São Pedro via Expressa":
+            /*case "Bairro São Pedro via Expressa":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/69500");
-                break;
+                break;*/
             case "Barreiros":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/44200");
                 break;
-            case "Barreiros-Sede":
+            /*case "Barreiros-Sede":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/90600");
-                break;
+                break;*/
             case "Bela Vista":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/43100");
                 break;
-            case "Bela Vista via Expressa":
+            /*case "Bela Vista via Expressa":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/55900");
                 break;
             case "Bela Vista via Floresta":
@@ -78,22 +78,22 @@ public class Act_Empresas_Biguacu_WebView extends AppCompatActivity {
                 break;
             case "Bela Vista via Floresta/Expressa":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/43102");
-                break;
+                break;*/
             case "Biguaçu":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/44300");
                 break;
-            case "Biguaçu via Expressa":
+            /*case "Biguaçu via Expressa":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/55700");
-                break;
+                break;*/
             case "Biguaçu-Palhoça":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/8800");
                 break;
             case "Bom Viver":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/10000");
                 break;
-            case "Bom Viver via Expressa":
+            /*case "Bom Viver via Expressa":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/10001");
-                break;
+                break;*/
             case "Bom Viver-Biguaçu":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/900056");
                 break;
@@ -106,9 +106,9 @@ public class Act_Empresas_Biguacu_WebView extends AppCompatActivity {
             case "Circular Barreiros":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/90900");
                 break;
-            case "Circular Biguaçu":
+            /*case "Circular Biguaçu":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/900006");
-                break;
+                break;*/
             case "Diretão":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/90800");
                 break;
@@ -118,7 +118,7 @@ public class Act_Empresas_Biguacu_WebView extends AppCompatActivity {
             case "Dona Wanda":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/43402");
                 break;
-            case "Dona Wanda via Expressa":
+            /*case "Dona Wanda via Expressa":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/43403");
                 break;
             case "Egito-Antônio Carlos":
@@ -126,7 +126,7 @@ public class Act_Empresas_Biguacu_WebView extends AppCompatActivity {
                 break;
             case "Estiva-Biguaçu":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/900057");
-                break;
+                break;*/
             case "Executivo Antônio Carlos":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/10501");
                 break;
@@ -151,9 +151,9 @@ public class Act_Empresas_Biguacu_WebView extends AppCompatActivity {
             case "Executivo Zenaide":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/14601");
                 break;
-            case "Floresta via Expressa":
+            /*case "Floresta via Expressa":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/66900");
-                break;
+                break;*/
             case "Floresta via Kobrasol":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/2200");
                 break;
@@ -166,7 +166,7 @@ public class Act_Empresas_Biguacu_WebView extends AppCompatActivity {
             case "Governador Celso Ramos-Biguaçu":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/54600");
                 break;
-            case "Heriberto Hulse":
+            /*case "Heriberto Hulse":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/44201");
                 break;
             case "Jardim Carandai":
@@ -174,28 +174,28 @@ public class Act_Empresas_Biguacu_WebView extends AppCompatActivity {
                 break;
             case "Jardim Cidade Florianópolis":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/9800");
-                break;
+                break;*/
             case "Jardim das Acácias":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/75900");
                 break;
             case "Jardim Janaina":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/43400");
                 break;
-            case "Jardim Janaina via Expressa":
+            /*case "Jardim Janaina via Expressa":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/43401");
-                break;
+                break;*/
             case "Jardim Zanellato":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/11300");
                 break;
-            case "Jardim Zanellato via Expressa":
+            /*case "Jardim Zanellato via Expressa":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/11301");
-                break;
+                break;*/
             case "José Nitro":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/10002");
                 break;
-            case "Loro-Antônio Carlos":
+            /*case "Loro-Antônio Carlos":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/930000");
-                break;
+                break;*/
             case "Palmas-Florianópolis":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/43300");
                 break;
@@ -205,7 +205,7 @@ public class Act_Empresas_Biguacu_WebView extends AppCompatActivity {
             case "Prado":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/10901");
                 break;
-            case "Praia João Rosa":
+            /*case "Praia João Rosa":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/44301");
                 break;
             case "Rachadel-Antônio Carlos":
@@ -213,31 +213,34 @@ public class Act_Empresas_Biguacu_WebView extends AppCompatActivity {
                 break;
             case "Roçado":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/67200");
-                break;
+                break;*/
             case "Rua Santo Antônio":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/64001");
                 break;
-            case "Santa Maria-Antônio Carlos":
+            /*case "Santa Maria-Antônio Carlos":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/960000");
-                break;
+                break;*/
             case "São Miguel":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/10900");
                 break;
             case "Saudade":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/44302");
                 break;
-            case "Serraria-Forquilhinhas":
+            /*case "Serraria-Forquilhinhas":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/90700");
-                break;
+                break;*/
             case "Shopping Center Itaguaçu":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/12400");
+                break;
+            case "Sorocaba-Florianópolis":
+                WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/64200");
                 break;
             case "Sorocaba-Biguaçu":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/64201");
                 break;
-            case "Tijucas-Biguaçu":
+            /*case "Tijucas-Biguaçu":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/64300");
-                break;
+                break;*/
             case "Três Riachos-Florianópolis":
                 WebView.loadUrl("http://www.tcbiguacu.com.br/horarios/44800");
                 break;
