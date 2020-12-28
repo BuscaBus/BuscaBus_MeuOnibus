@@ -4,35 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorBlueMedium"
     tools:context=".Act_Empresas_Biguacu_WebView">
 
     <WebView
         android:id="@+id/WebView"
-        android:layout_width="413dp"
-        android:layout_height="734dp"
+        android:layout_width="415dp"
+        android:layout_height="789dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/Btn_Mapa"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.481"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/Btn_Mapa"
-        android:layout_width="fill_parent"
-        android:layout_height="60dp"
-        android:layout_weight="1"
-        android:backgroundTint="@color/colorBlueMedium"
-        android:text="VER MAPA"
-        android:textAlignment="center"
-        android:textColor="@color/colorWhite"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/WebView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

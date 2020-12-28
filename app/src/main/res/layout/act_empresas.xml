@@ -7,18 +7,6 @@
     android:background="@color/colorWhite"
     tools:context=".Act_Empresas">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="151dp"
-        android:layout_height="95dp"
-        android:layout_marginTop="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/Btn_CFenix"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.761"
-        app:srcCompat="@mipmap/ic_time" />
-
     <Button
         android:id="@+id/Btn_CFenix"
         android:layout_width="0dp"

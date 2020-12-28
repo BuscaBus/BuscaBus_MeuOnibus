@@ -29,16 +29,16 @@ public class Act_Empresas_CFenix extends AppCompatActivity {
         this.listView = (ListView) findViewById(R.id.LV_ListaLinhas);
         searchView = (SearchView) findViewById(R.id.Filtro);
 
-        // Declaração dos itens no ListView
+        // Lista de Linhas no ListView
         linha = new ArrayList<String>();
         //linha.add("100 - Madrugadão Centro-UFSC");
         //linha.add("101 - Circular Centro");
-        //linha.add("104 - TICEN-Itacorubi via Mauro Ramos");
+        linha.add("104 - TICEN-Itacorubi via Mauro Ramos");
         //linha.add("110 - TITRI-TICEN Direto");
         //linha.add("1112 - Executivo Santa Mônica");
-        //linha.add("1113 - Executivo Parque São Jorge");
-        //linha.add("1115 - Executivo Córrego Grande via G D`Eça");
-        //linha.add("1117 - Executivo João Paulo");
+        linha.add("1113 - Executivo Parque São Jorge");
+        linha.add("1115 - Executivo Córrego Grande via G D`Eça");
+        linha.add("1117 - Executivo João Paulo");
         linha.add("1120 - Executivo Canasvieiras");
         linha.add("1121 - Executivo Ingleses/Santinho");
         linha.add("1122 - Executivo Praia Brava");
@@ -81,9 +81,9 @@ public class Act_Empresas_CFenix extends AppCompatActivity {
         //linha.add("181 - Cacupé/João Paulo via Barreira do Janga");
         //linha.add("182 - Tecnópolis");
         linha.add("183 - Corredor Sudoeste via Saco dos Limões");
-        linha.add("184 - UDESC via Beira Mar");
+        linha.add("184 - UDESC via Beira Mar/TITRI");
         //linha.add("185 - UFSC Semidireto");
-        //linha.add("186 - Corredor Sudoeste via Túnel");
+        linha.add("186 - Corredor Sudoeste via Túnel");
         linha.add("191 - TITRI-TICEN via Transcaeira");
         //linha.add("200 - Madrugadão Norte");
         linha.add("210 - TICAN-TICEN Direto");
@@ -105,7 +105,7 @@ public class Act_Empresas_CFenix extends AppCompatActivity {
         linha.add("265 - Ponta das Canas");
         linha.add("266 - Praia Brava");
         linha.add("267 - Rio Vermelho");
-        //linha.add("268 - Sitio de Baixo");
+        linha.add("268 - Sitio de Baixo");
         linha.add("269 - Moçambique via Alzira Rosa Aguiar");
         //linha.add("270 - Vargem Grande");
         linha.add("271 - Daniela");
@@ -132,14 +132,14 @@ public class Act_Empresas_CFenix extends AppCompatActivity {
         //linha.add("3002 - Executivo Jardim Atlântico-UFSC");
         //linha.add("311 - TILAG-TICEN Direto");
         linha.add("320 - TILAG-TICEN via Beira Mar");
-        linha.add("330 - TILAG-TICEN via Mauro Ramos");
+        linha.add("330 - TILAG-TICEN via Mauro Ramos/TITRI");
         linha.add("331 - TISAN-TICEN via Mauro Ramos");
         linha.add("332 - TISAN-TICEN via Beira Mar");
         linha.add("333 - TILAG-TITRI via Madre Benvenuta");
         linha.add("360 - Barra da Lagoa");
         linha.add("362 - Canto dos Araças");
         linha.add("363 - Joaquina");
-        linha.add("364 - Osni Ortiga");
+        //linha.add("364 - Osni Ortiga");
         linha.add("365 - Sambaqui");
         linha.add("366 - Barra do Sambaqui via Padre Rohr");
         linha.add("410 - TIRIO-TICEN Direto");
@@ -151,7 +151,7 @@ public class Act_Empresas_CFenix extends AppCompatActivity {
         linha.add("4125 - Executivo Pântano do Sul via Gramal");
         linha.add("430 - TIRIO-TICEN via Costeira");
         linha.add("431 - TICEN-Aeroporto");
-        //linha.add("460 - Porto da Lagoa");
+        linha.add("460 - Porto da Lagoa");
         linha.add("461 - Tapera via Túnel");
         linha.add("462 - Campeche");
         //linha.add("463 - Castanheiras via Eucaliptos");
@@ -171,24 +171,25 @@ public class Act_Empresas_CFenix extends AppCompatActivity {
         linha.add("562 - Costa de Cima");
         linha.add("563 - Costa de Dentro");
         //linha.add("564 - Pântano do Sul");
-        //linha.add("565 - Ribeirão da Ilha");
+        linha.add("565 - Ribeirão da Ilha");
         //linha.add("566 - Caieira via Tapera");
         //linha.add("600 - Madrugadão Continente");
         //linha.add("601 - Circular Abraão-Estreito");
         //linha.add("605 - Circular Estreito-Abraão");
-        //linha.add("6220 - Executivo Abraão");
+        linha.add("6220 - Executivo Abraão");
         linha.add("630 - Corredor Continente");
         linha.add("631 - Capoeiras");
         //linha.add("660 - Aracy Vaz Callado");
         //linha.add("661 - Balneário");
-        //linha.add("663 - Coloninha");
+        linha.add("663 - Coloninha");
         linha.add("664 - Itaguaçu");
         linha.add("665 - Abraão");
         //linha.add("668 - Promorar via Ivo Silveira");
         linha.add("670 - Monte Cristo");
         linha.add("671 - Vila/Promorar");
         //linha.add("672 - Monte Cristo via Escola Edith Gama Ramos");
-        //linha.add("760 - Morro do Geraldo");
+        linha.add("673 - Ponte Viva");
+        linha.add("760 - Morro do Geraldo");
         linha.add("761 - Vila Aparecida");
         linha.add("762 - Ângelo Laporta");
         linha.add("763 - Caeira Saco dos Limões");
@@ -197,7 +198,7 @@ public class Act_Empresas_CFenix extends AppCompatActivity {
         linha.add("766 - Morro do 25");
         linha.add("768 - Morro do Horácio via Mauro Ramos");
         linha.add("769 - Morro Nova Trento");
-        //linha.add("772 - Chico Mendes");
+        linha.add("772 - Chico Mendes");
         linha.add("840 - TICAN-TILAG via Barra da Lagoa");
         linha.add("841 - TILAG-TIRIO");
         linha.add("843 - TILAG-TIRIO via LIC");
@@ -205,7 +206,7 @@ public class Act_Empresas_CFenix extends AppCompatActivity {
         //linha.add("845 - TILAG-TITRI via Córrego Grande");
         linha.add("846 - Cacupé");
         //linha.add("847 - TIRIO-TITRI via UFSC");
-        //linha.add("850 - TILAG-Rio Vermelho via Cidade da Barra");
+        linha.add("850 - TILAG-Rio Vermelho via Cidade da Barra");
         linha.add("940 - Canasvieiras-Santo Antônio via Jurerê");
         //linha.add("941 - Canasvieiras-Santo Antônio via Ratones");
         //linha.add("943 - Saco dos Limões-Trindade");

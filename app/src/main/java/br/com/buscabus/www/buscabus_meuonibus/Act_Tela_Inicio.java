@@ -17,7 +17,7 @@ public class Act_Tela_Inicio extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                startActivity(new Intent(getBaseContext(), Act_Inicio.class));
+                startActivity(new Intent(getBaseContext(), Act_Empresas.class));
                 finish();
             }
         },2000);

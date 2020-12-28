@@ -1,39 +1,20 @@
 <resources>
     <string name="app_name">BuscaBus</string>
 
-    <string name="Txt_Inicio">BuscaBus</string>
+    <string name="Txt_Inicio">BuscaBus Horários</string>
     <string name="Txt_CFenix">Consórcio Fênix</string>
     <string name="Txt_Biguacu">Biguaçu</string>
     <string name="Txt_Estrela">Estrela</string>
     <string name="Txt_Imperatriz">Imperatriz</string>
     <string name="Txt_Jotur">Jotur</string>
     <string name="Txt_STerezinha">Santa Terezinha</string>
-    <string name="Txt_Ticen">TICEN</string>
-    <string name="Txt_Titri">TITRI</string>
-    <string name="Txt_Tilag">TILAG</string>
-    <string name="Txt_Tisan">TISAN</string>
-    <string name="Txt_Tican">TICAN</string>
-    <string name="Txt_Tcfl">Terminal Cidade</string>
-    <string name="Txt_EstPH">Estação Palhoça</string>
 
     <string name="Btn_Horarios">Horários</string>
-    <string name="Btn_Mapas">Mapa</string>
-    <string name="Btn_Terminais">Terminais</string>
-    <string name="Btn_VerMapa">Ver Mapa</string>
     <string name="Btn_CFenix">Consórcio Fênix</string>
     <string name="Btn_Biguacu">Biguaçu</string>
     <string name="Btn_Estrela">Estrela</string>
     <string name="Btn_Imperatriz">Imperatriz</string>
     <string name="Btn_Jotur">Jotur</string>
     <string name="Btn_STerezinha">Santa Terezinha</string>
-    <string name="Btn_Ticen">TICEN</string>
-    <string name="Btn_Titri">TITRI</string>
-    <string name="Btn_Tilag">TILAG</string>
-    <string name="Btn_Tirio">TIRIO</string>
-    <string name="Btn_Tisan">TISAN</string>
-    <string name="Btn_Tican">TICAN</string>
-    <string name="Btn_EstacaoPH">ESTAÇÃO PALHOÇA</string>
-
-    <string name="title_activity_act__mapa">Mapa</string>
 
 </resources>

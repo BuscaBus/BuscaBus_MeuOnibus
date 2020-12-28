@@ -26,9 +26,6 @@ public class Act_Empresas_Jotur_WebView extends AppCompatActivity {
         Intent intent = getIntent();
         final String parametroNomeLinha = (String) intent.getSerializableExtra("Nome da Linha");
 
-        // Declaração dos botão Mapa
-        final Button Btn_Mapa = (Button) findViewById(R.id.Btn_Mapa);
-
         // Parametro para exibir Horários
         switch(parametroNomeLinha) {
             case "Albardão-Estação Palhoça":
@@ -233,126 +230,6 @@ public class Act_Empresas_Jotur_WebView extends AppCompatActivity {
                 WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/vila-nova-florianopolis,9");
                 break;
         }
-
-        // Ação do botão Mapa
-        Btn_Mapa.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                switch (parametroNomeLinha) {
-                    case "Aririu-Florianpolis":
-                        Intent linha0355 = new Intent(Act_Empresas_Jotur_WebView.this, Act_Mapas_WebView.class);
-                        linha0355.putExtra("Nome da Linha", "Aririu-Florianpolis");
-                        startActivity(linha0355);
-                        break;
-                    case "Barra do Aririu-Barreiros":
-                        Intent linha0270 = new Intent(Act_Empresas_Jotur_WebView.this, Act_Mapas_WebView.class);
-                        linha0270.putExtra("Nome da Linha", "Barra do Aririu-Barreiros");
-                        startActivity(linha0270);
-                        break;
-                    case "Barra do Aririu-Ponte do Imaruim (Circular)":
-                        Intent linha213 = new Intent(Act_Empresas_Jotur_WebView.this, Act_Mapas_WebView.class);
-                        linha213.putExtra("Nome da Linha", "Barra do Aririu-Ponte do Imaruim (Circular)");
-                        startActivity(linha213);
-                        break;
-                    case "Barra do Aririu-Florianópolis":
-                        Intent linha0361 = new Intent(Act_Empresas_Jotur_WebView.this, Act_Mapas_WebView.class);
-                        linha0361.putExtra("Nome da Linha", "Barra do Aririu-Florianópolis");
-                        startActivity(linha0361);
-                        break;
-                    case "Bela Vista-Ponte do Imaruim":
-                        Intent linha403 = new Intent(Act_Empresas_Jotur_WebView.this, Act_Mapas_WebView.class);
-                        linha403.putExtra("Nome da Linha", "Bela Vista-Ponte do Imaruim");
-                        startActivity(linha403);
-                        break;
-                    case "Bela Vista-Florianópolis":
-                        Intent linha7161 = new Intent(Act_Empresas_Jotur_WebView.this, Act_Mapas_WebView.class);
-                        linha7161.putExtra("Nome da Linha", "Bela Vista-Florianópolis");
-                        startActivity(linha7161);
-                        break;
-                    case "Caminho Novo/Terra Nova-Palhoça":
-                        Intent linha543 = new Intent(Act_Empresas_Jotur_WebView.this, Act_Mapas_WebView.class);
-                        linha543.putExtra("Nome da Linha", "Caminho Novo/Terra Nova-Palhoça");
-                        startActivity(linha543);
-                        break;
-                    case "Caminho Novo/Terra Nova-Florianópolis":
-                        Intent linha0280 = new Intent(Act_Empresas_Jotur_WebView.this, Act_Mapas_WebView.class);
-                        linha0280.putExtra("Nome da Linha", "Caminho Novo/Terra Nova-Florianópolis");
-                        startActivity(linha0280);
-                        break;
-                    case "Cidade Univercitária - Interbairros (Circular)":
-                        Intent linha620 = new Intent(Act_Empresas_Jotur_WebView.this, Act_Mapas_WebView.class);
-                        linha620.putExtra("Nome da Linha", "Cidade Univercitária - Interbairros (Circular)");
-                        startActivity(linha620);
-                        break;
-                    case "Diretão":
-                        Intent linha018 = new Intent(Act_Empresas_Jotur_WebView.this, Act_Mapas_WebView.class);
-                        linha018.putExtra("Nome da Linha", "Diretão");
-                        startActivity(linha018);
-                        break;
-                    case "Enseada do Brito-Ponte do Imaruim":
-                        Intent linha013 = new Intent(Act_Empresas_Jotur_WebView.this, Act_Mapas_WebView.class);
-                        linha013.putExtra("Nome da Linha", "Enseada do Brito-Ponte do Imaruim");
-                        startActivity(linha013);
-                        break;
-                    case "Guarda do Cubatão-Ponte do Imaruim":
-                        Intent linha303 = new Intent(Act_Empresas_Jotur_WebView.this, Act_Mapas_WebView.class);
-                        linha303.putExtra("Nome da Linha", "Guarda do Cubatão-Ponte do Imaruim");
-                        startActivity(linha303);
-                        break;
-                    case "Guarda do Cubatão-Ponte do Imaruim (Circular)":
-                        Intent linha323 = new Intent(Act_Empresas_Jotur_WebView.this, Act_Mapas_WebView.class);
-                        linha323.putExtra("Nome da Linha", "Guarda do Cubatão-Ponte do Imaruim (Circular)");
-                        startActivity(linha323);
-                        break;
-                    case "Guarda do Cubatão-Florianópolis":
-                        Intent linha0350 = new Intent(Act_Empresas_Jotur_WebView.this, Act_Mapas_WebView.class);
-                        linha0350.putExtra("Nome da Linha", "Guarda do Cubatão-Florianópolis");
-                        startActivity(linha0350);
-                        break;
-                    case "Interbairros (Bela Vista/Passa Vinte)":
-                        Intent linha101 = new Intent(Act_Empresas_Jotur_WebView.this, Act_Mapas_WebView.class);
-                        linha101.putExtra("Nome da Linha", "Interbairros (Bela Vista/Passa Vinte)");
-                        startActivity(linha101);
-                        break;
-                    case "Madri-Palhoça":
-                        Intent linha533 = new Intent(Act_Empresas_Jotur_WebView.this, Act_Mapas_WebView.class);
-                        linha533.putExtra("Nome da Linha", "Madri-Palhoça");
-                        startActivity(linha533);
-                        break;
-                    case "Palhoça-Biguaçu":
-                        Intent linha1330 = new Intent(Act_Empresas_Jotur_WebView.this, Act_Mapas_WebView.class);
-                        linha1330.putExtra("Nome da Linha", "Palhoça-Biguaçu");
-                        startActivity(linha1330);
-                        break;
-                    case "Pinheira-Ponte do Imaruim":
-                        Intent linha006 = new Intent(Act_Empresas_Jotur_WebView.this, Act_Mapas_WebView.class);
-                        linha006.putExtra("Nome da Linha", "Pinheira-Ponte do Imaruim");
-                        startActivity(linha006);
-                        break;
-                    case "São José-Florianópolis":
-                        Intent linha0372 = new Intent(Act_Empresas_Jotur_WebView.this, Act_Mapas_WebView.class);
-                        linha0372.putExtra("Nome da Linha", "São José-Florianópolis");
-                        startActivity(linha0372);
-                        break;
-                    case "São Sebastião-Palhoça":
-                        Intent linha503 = new Intent(Act_Empresas_Jotur_WebView.this, Act_Mapas_WebView.class);
-                        linha503.putExtra("Nome da Linha", "São Sebastião-Palhoça");
-                        startActivity(linha503);
-                        break;
-                    case "São Sebastião-Florianópolis":
-                        Intent linha0242 = new Intent(Act_Empresas_Jotur_WebView.this, Act_Mapas_WebView.class);
-                        linha0242.putExtra("Nome da Linha", "São Sebastião-Florianópolis");
-                        startActivity(linha0242);
-                        break;
-                    case "Unisul-Ponte do Imaruim":
-                        Intent linha630 = new Intent(Act_Empresas_Jotur_WebView.this, Act_Mapas_WebView.class);
-                        linha630.putExtra("Nome da Linha", "Unisul-Ponte do Imaruim");
-                        startActivity(linha630);
-                        break;
-
-                }
-            }
-        });
 
     }
 }

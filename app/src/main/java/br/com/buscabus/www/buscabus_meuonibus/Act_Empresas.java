@@ -50,7 +50,7 @@ public class Act_Empresas extends AppCompatActivity {
         Btn_Imperatriz.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
-                Intent it = new Intent(Act_Empresas.this, Act_Empresas_Imperatriz.class);
+                Intent it = new Intent(Act_Empresas.this, Act_Empresas_Imperatriz_WebView.class);
                 startActivity(it);
             }
 

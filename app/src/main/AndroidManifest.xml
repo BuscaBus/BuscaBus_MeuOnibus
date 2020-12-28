@@ -21,9 +21,6 @@
         android:supportsRtl="true"
         android:usesCleartextTraffic="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".Act_Terminais_WebView"></activity>
-        <activity android:name=".Act_Terminais" />
-        <activity android:name=".Act_Mapas_WebView" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -36,9 +33,6 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
-        <activity
-            android:name=".Act_Mapa"
-            android:label="@string/title_activity_act__mapa" />
         <activity android:name=".Act_Empresas_STerezinha_WebView" />
         <activity android:name=".Act_Empresas_Jotur_WebView" />
         <activity android:name=".Act_Empresas_Imperatriz_WebView" />
@@ -52,7 +46,6 @@
         <activity android:name=".Act_Empresas_Estrela" />
         <activity android:name=".Act_Empresas_Biguacu" />
         <activity android:name=".Act_Empresas" />
-        <activity android:name=".Act_Inicio" />
         <activity android:name=".Act_Tela_Inicio">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -22,16 +22,15 @@ public class Act_Empresas_Imperatriz_WebView extends AppCompatActivity {
         WebView.getSettings().setJavaScriptEnabled(true);
         WebView.setWebViewClient(new WebViewClient());
 
+        WebView.loadUrl("http://www.avimperatriz.com.br/site");
+
         // Pega a inteção com o nome das linha
         Intent intent = getIntent();
         final String parametroNomeLinha = (String) intent.getSerializableExtra("Nome da Linha");
 
-        // Declaração dos botão Mapa
-        final Button Btn_Mapa = (Button) findViewById(R.id.Btn_Mapa);
-
         // Parametro para exibir Horários
-        switch(parametroNomeLinha) {
-            case "Águas Mornas-Florianópolis":
+        /**switch(parametroNomeLinha) {
+           case "Águas Mornas-Florianópolis":
                 WebView.loadUrl("http://www.avimperatriz.com.br/site/horariosDeOnibus");
                 break;
             case "Alto Aririu-Florianópolis":
@@ -97,67 +96,7 @@ public class Act_Empresas_Imperatriz_WebView extends AppCompatActivity {
             case "Vargem Grande-Florianópolis via BR 101":
                 WebView.loadUrl("http://www.avimperatriz.com.br/site/horariosDeOnibus/6252-vargem-grande-2-florianopolis/6252");
                 break;
-        }
-
-        // Ação do botão Mapa
-        Btn_Mapa.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                switch (parametroNomeLinha) {
-                    case "Águas Mornas-Florianópolis":
-                        Intent linha6240 = new Intent(Act_Empresas_Imperatriz_WebView.this, Act_Mapas_WebView.class);
-                        linha6240.putExtra("Nome da Linha", "Águas Mornas-Florianópolis");
-                        startActivity(linha6240);
-                        break;
-                    case "Alto Aririu-Florianópolis":
-                        Intent linha6280 = new Intent(Act_Empresas_Imperatriz_WebView.this, Act_Mapas_WebView.class);
-                        linha6280.putExtra("Nome da Linha", "Alto Aririu-Florianópolis");
-                        startActivity(linha6280);
-                        break;
-                    case "Aririu-Caldas":
-                        Intent linha681 = new Intent(Act_Empresas_Imperatriz_WebView.this, Act_Mapas_WebView.class);
-                        linha681.putExtra("Nome da Linha", "Aririu-Caldas");
-                        startActivity(linha681);
-                        break;
-                    case "Caldas-Florianópolis":
-                        Intent linha680 = new Intent(Act_Empresas_Imperatriz_WebView.this, Act_Mapas_WebView.class);
-                        linha680.putExtra("Nome da Linha", "Caldas-Florianópolis");
-                        startActivity(linha680);
-                        break;
-                    case "Lourdes-Florianópolis":
-                        Intent linha970 = new Intent(Act_Empresas_Imperatriz_WebView.this, Act_Mapas_WebView.class);
-                        linha970.putExtra("Nome da Linha", "Lourdes-Florianópolis");
-                        startActivity(linha970);
-                        break;
-                    case "Lourdes-Santo Amaro":
-                        Intent linha6290 = new Intent(Act_Empresas_Imperatriz_WebView.this, Act_Mapas_WebView.class);
-                        linha6290.putExtra("Nome da Linha", "Lourdes-Santo Amaro");
-                        startActivity(linha6290);
-                        break;
-                    case "Queçaba-Florianópolis":
-                        Intent linha660 = new Intent(Act_Empresas_Imperatriz_WebView.this, Act_Mapas_WebView.class);
-                        linha660.putExtra("Nome da Linha", "Queçaba-Florianópolis");
-                        startActivity(linha660);
-                        break;
-                    case "Santa Isabel-Florianópolis":
-                        Intent linha830 = new Intent(Act_Empresas_Imperatriz_WebView.this, Act_Mapas_WebView.class);
-                        linha830.putExtra("Nome da Linha", "Santa Isabel-Florianópolis");
-                        startActivity(linha830);
-                        break;
-                    case "Santo Amaro-Florianópolis":
-                        Intent linha670 = new Intent(Act_Empresas_Imperatriz_WebView.this, Act_Mapas_WebView.class);
-                        linha670.putExtra("Nome da Linha", "Santo Amaro-Florianópolis");
-                        startActivity(linha670);
-                        break;
-                    case "Vargem Grande-Florianópolis":
-                        Intent linha6250 = new Intent(Act_Empresas_Imperatriz_WebView.this, Act_Mapas_WebView.class);
-                        linha6250.putExtra("Nome da Linha", "Vargem Grande-Florianópolis");
-                        startActivity(linha6250);
-                        break;
-                }
-
-            }
-        });
+        }**/
 
     }
 }
