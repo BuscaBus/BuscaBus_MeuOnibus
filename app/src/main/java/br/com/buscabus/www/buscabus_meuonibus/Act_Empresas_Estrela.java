@@ -29,34 +29,34 @@ public class Act_Empresas_Estrela extends AppCompatActivity {
         this.listView = (ListView) findViewById(R.id.LV_ListaLinhas);
         searchView = (SearchView) findViewById(R.id.Filtro);
 
-        // Declaração dos itens no ListView
+        // Lista de Linhas no ListView
         linha = new ArrayList<String>();
         //linha.add("Arthur Mariano-Circular Forquilhinhas");
         //linha.add("Bairro São Luiz");
         //linha.add("Barreiros-Sede");
         linha.add("Campinas via Kobrasol");
         //linha.add("Campinas via Ginásio");
-        //linha.add("Ceasa via Shopping");
+        linha.add("Ceasa via Santos Saraiva/Kobrasol");
         //linha.add("Ceniro via Jardim Palmeiras");
         linha.add("Diretão");
         //linha.add("Diretão Executivo");
-        linha.add("Executivo San Marino/Lisboa");
-        //linha.add("Executivo Zenaide/Barreiros via Estreito");
+        linha.add("Executivo Campinas/Kobrasol VIP");
+        linha.add("Executivo San Marino/Lisboa VIP");
+        linha.add("Executivo Zenaide/Barreiros VIP");
         linha.add("Forquilhas via Los Angeles");
         //linha.add("Forquilhas-Kobrasol");
-        //linha.add("Forquilhinhas");
-        linha.add("Forquilhinhas via Rodeio/Palmares");
+        linha.add("Forquilhinha");
+        linha.add("Forquilhinha via Rodeio/Palmares");
         //linha.add("Kobrasol via Expressa");
-        //linha.add("Kobrasol VIP");
-        //linha.add("Los Angeles");
-        linha.add("Lisboa");
+        linha.add("Los Angeles");
+        linha.add("P. R. Lisboa");
         //linha.add("Potecas");
         linha.add("Potecas via Santos Saraiva");
         //linha.add("Potecas-Kobrasol");
         //linha.add("Recanto da Natureza via Ceniro");
         //linha.add("Serraria-Forquilhinhas");
         //linha.add("Vila Formosa-Lisboa-Kobrasol");
-        linha.add("Zenaide/Santa Felicidade via Ceniro");
+        linha.add("Zenaide via Ceniro");
 
         adaptador = new ArrayAdapter<String>(Act_Empresas_Estrela.this, android.R.layout.simple_list_item_1, linha);
         listView.setAdapter(adaptador);

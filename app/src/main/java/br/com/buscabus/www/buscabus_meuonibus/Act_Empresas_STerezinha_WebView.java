@@ -28,33 +28,33 @@ public class Act_Empresas_STerezinha_WebView extends AppCompatActivity {
 
         // Parametro para exibir Horários
         switch(parametroNomeLinha) {
-            case "Angelina-Florianópolis":
+            /*case "Angelina-Florianópolis":
                 WebView.loadUrl("http://www.santaterezinha.com/?area=linhas&id=21");
-                break;
+                break;*/
             case "Flor de Nápolis-Florianópolis":
                 WebView.loadUrl("http://www.santaterezinha.com/?area=linhas&id=5");
                 break;
-            case "Jardim Pinheiros-Kobrasol":
+            /*case "Jardim Pinheiros-Kobrasol":
                 WebView.loadUrl("http://www.santaterezinha.com/?area=linhas&id=23");
                 break;
             case "Picadas do Sul-Florianópolis":
                 WebView.loadUrl("http://www.santaterezinha.com/?area=linhas&id=26");
-                break;
+                break;*/
             case "Santana-Florianópolis":
                 WebView.loadUrl("http://www.santaterezinha.com/?area=linhas&id=7");
                 break;
-            case "Santana-Kobrasol":
+            /*case "Santana-Kobrasol":
                 WebView.loadUrl("http://www.santaterezinha.com/?area=linhas&id=4");
-                break;
+                break;*/
             case "São Pedro de Alcântara-Florianópolis":
                 WebView.loadUrl("http://www.santaterezinha.com/?area=linhas&id=6");
                 break;
             case "Sertão do Maruim-Florianópolis":
                 WebView.loadUrl("http://www.santaterezinha.com/?area=linhas&id=25");
                 break;
-            case "Vila Formosa-Florianópolis":
+            /*case "Vila Formosa-Florianópolis":
                 WebView.loadUrl("http://www.santaterezinha.com/?area=linhas&id=8");
-                break;
+                break;*/
         }
 
     }

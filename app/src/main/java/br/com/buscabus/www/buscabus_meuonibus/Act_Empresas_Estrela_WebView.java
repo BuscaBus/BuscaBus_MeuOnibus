@@ -28,7 +28,7 @@ public class Act_Empresas_Estrela_WebView extends AppCompatActivity {
 
         // Parametro para exibir Horários
         switch(parametroNomeLinha) {
-            case "Arthur Mariano-Circular Forquilhinhas":
+            /*case "Arthur Mariano-Circular Forquilhinhas":
                 WebView.loadUrl("http://insulartc.com.br/estrela/ws1/linhas/horarios/intermunicipal/0651.htm");
                 break;
             case "Bairro São Luiz":
@@ -36,62 +36,62 @@ public class Act_Empresas_Estrela_WebView extends AppCompatActivity {
                 break;
             case "Barreiros-Sede":
                 WebView.loadUrl("http://insulartc.com.br/estrela/ws1/linhas/horarios/interbairros/0110.htm");
-                break;
+                break;*/
             case "Campinas via Kobrasol":
                 WebView.loadUrl("http://insulartc.com.br/estrela/ws1/linhas/horarios/intermunicipal/0317.htm");
                 break;
-            case "Campinas via Ginásio":
+            /*case "Campinas via Ginásio":
                 WebView.loadUrl("http://insulartc.com.br/estrela/ws1/linhas/horarios/intermunicipal/3171.htm");
-                break;
-            case "Ceasa via Shopping":
+                break;*/
+            case "Ceasa via Santos Saraiva/Kobrasol":
                 WebView.loadUrl("http://insulartc.com.br/estrela/ws1/linhas/horarios/intermunicipal/0328.htm");
                 break;
-            case "Ceniro via Jardim Palmeiras":
+            /*case "Ceniro via Jardim Palmeiras":
                 WebView.loadUrl("http://insulartc.com.br/estrela/ws1/linhas/horarios/intermunicipal/0131.htm");
-                break;
+                break;*/
             case "Diretão":
                 WebView.loadUrl("http://insulartc.com.br/estrela/ws1/linhas/horarios/interbairros/0130.htm");
                 break;
-            case "Diretão Executivo":
+            /*case "Diretão Executivo":
                 WebView.loadUrl("http://insulartc.com.br/estrela/ws1/linhas/horarios/interbairros/0140.htm");
+                break;*/
+            case "Executivo Campinas/Kobrasol VIP":
+                WebView.loadUrl("http://insulartc.com.br/estrela/ws1/linhas/horarios/intermunicipal/1412.htm");
                 break;
-            case "Executivo San Marino/Lisboa":
+            case "Executivo San Marino/Lisboa VIP":
                 WebView.loadUrl("http://insulartc.com.br/estrela/ws1/linhas/horarios/intermunicipal/7633.htm");
                 break;
-            case "Executivo Zenaide/Barreiros via Estreito":
+            case "Executivo Zenaide/Barreiros VIP":
                 WebView.loadUrl("http://insulartc.com.br/estrela/ws1/linhas/horarios/intermunicipal/1311.htm");
                 break;
             case "Forquilhas via Los Angeles":
                 WebView.loadUrl("http://insulartc.com.br/estrela/ws1/linhas/horarios/intermunicipal/0039.htm");
                 break;
-            case "Forquilhas-Kobrasol":
+            /*case "Forquilhas-Kobrasol":
                 WebView.loadUrl("http://insulartc.com.br/estrela/ws1/linhas/horarios/interbairros/0120.htm");
-                break;
-            case "Forquilhinhas":
+                break;*/
+            case "Forquilhinha":
                 WebView.loadUrl("http://insulartc.com.br/estrela/ws1/linhas/horarios/intermunicipal/0117.htm");
                 break;
-            case "Forquilhinhas via Rodeio/Palmares":
+            case "Forquilhinha via Rodeio/Palmares":
                 WebView.loadUrl("http://insulartc.com.br/estrela/ws1/linhas/horarios/intermunicipal/0392.htm");
                 break;
-            case "Kobrasol via Expressa":
+            /*case "Kobrasol via Expressa":
                 WebView.loadUrl("http://insulartc.com.br/estrela/ws1/linhas/horarios/intermunicipal/0141.htm");
-                break;
-            case "Kobrasol VIP":
-                WebView.loadUrl("http://insulartc.com.br/estrela/ws1/linhas/horarios/intermunicipal/1412.htm");
-                break;
+                break;*/
             case "Los Angeles":
                 WebView.loadUrl("http://insulartc.com.br/estrela/ws1/linhas/horarios/intermunicipal/0763.htm");
                 break;
-            case "Lisboa":
+            case "P. R. Lisboa":
                 WebView.loadUrl("http://insulartc.com.br/estrela/ws1/linhas/horarios/intermunicipal/7631.htm");
                 break;
-            case "Potecas":
+            /*case "Potecas":
                 WebView.loadUrl("http://insulartc.com.br/estrela/ws1/linhas/horarios/intermunicipal/0020.htm");
-                break;
+                break;*/
             case "Potecas via Santos Saraiva":
                 WebView.loadUrl("http://insulartc.com.br/estrela/ws1/linhas/horarios/intermunicipal/0201.htm");
                 break;
-            case "Potecas-Kobrasol":
+            /*case "Potecas-Kobrasol":
                 WebView.loadUrl("http://insulartc.com.br/estrela/ws1/linhas/horarios/interbairros/0135.htm");
                 break;
             case "Recanto da Natureza via Ceniro":
@@ -102,8 +102,8 @@ public class Act_Empresas_Estrela_WebView extends AppCompatActivity {
                 break;
             case "Vila Formosa-Lisboa-Kobrasol":
                 WebView.loadUrl("http://insulartc.com.br/estrela/ws1/linhas/horarios/interbairros/0125.htm");
-                break;
-            case "Zenaide/Santa Felicidade via Ceniro":
+                break;*/
+            case "Zenaide via Ceniro":
                 WebView.loadUrl("http://insulartc.com.br/estrela/ws1/linhas/horarios/intermunicipal/7632.htm");
                 break;
         }

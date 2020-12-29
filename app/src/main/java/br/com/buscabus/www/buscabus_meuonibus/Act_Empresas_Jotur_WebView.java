@@ -28,7 +28,7 @@ public class Act_Empresas_Jotur_WebView extends AppCompatActivity {
 
         // Parametro para exibir Horários
         switch(parametroNomeLinha) {
-            case "Albardão-Estação Palhoça":
+            /*case "Albardão-Estação Palhoça":
                 WebView.loadUrl("https://www.google.com/maps/d/edit?mid=1O6W-G8qOEpapAHbjEkgfWOA6i5-_JxSU&usp=sharing");
                 break;
             case "Alto Aririu-Estação Palhoça":
@@ -39,59 +39,59 @@ public class Act_Empresas_Jotur_WebView extends AppCompatActivity {
                 break;
             case "Aririu Formiga-Florianópolis":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/aririu-formiga-florianopolis,11");
-                break;
+                break;*/
             case "Aririu-Florianpolis":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/aririu-florianopolis,1c");
                 break;
-            case "Bairro São Luiz-Florianópolis":
+            /*case "Bairro São Luiz-Florianópolis":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/sao-jose,2/bairro-sao-luiz-florianopolis,26");
-                break;
+                break;*/
             case "Barra do Aririu-Barreiros":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/barra-do-aririu-barreiros-paradora,m");
                 break;
-            case "Barra do Aririu-Ponte do Imaruim (Circular)":
-                WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/barra-do-aririu-estacao-palhoca-circular,10");
+            case "Barra do Aririu-Palhoça (Praça) Circular":
+                WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/barra-do-aririu-palhoca-praca-circular,10");
                 break;
-            case "Barra do Aririu-Estação Palhoça via Rio Grande":
+            /*case "Barra do Aririu-Estação Palhoça via Rio Grande":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/barra-do-aririu-estacao-palhoca-via-rg,o");
-                break;
+                break;*/
             case "Barra do Aririu-Florianópolis":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/barra-do-aririu-florianopolis,7");
                 break;
-            case "Barra do Aririu-Hospital Regional":
+            /*case "Barra do Aririu-Hospital Regional":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/barra-do-aririu-hospital-regional-paradora,n");
-                break;
-            case "Bela Vista-Ponte do Imaruim":
-                WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/bela-vista-estacao-palhoca,1e");
+                break;*/
+            case "Bela Vista-Palhoça (Praça)":
+                WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/bela-vista-palhoca-praca,1e");
                 break;
             case "Bela Vista-Florianópolis":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/bela-vista-florianopolis,19");
                 break;
-            case "Caminho Novo/Terra Nova-Palhoça":
-                WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/caminho-novo-terra-nova-estacao-palhoca,2e");
+            case "Caminho Novo/Terra Nova-Palhoça (Praça)":
+                WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/terra-nova-caminho-novo-palhoca-praca,2e");
                 break;
             case "Caminho Novo/Terra Nova-Florianópolis":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/caminho-novo-terra-nova-florianopolis,2h");
                 break;
-            case "Circulares Região Sul (Escolar)":
-                WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/circulares-municipais-escolar-da-regiao-sul-de-palhoca,30");
-                break;
             case "Cidade Univercitária - Interbairros (Circular)":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/cidade-universitaria-interbairros-circular-via-unisul-jardim-aquarius-jardim-eldorado,1q");
+                break;
+            case "Cidade Univercitária-Palhoça (Praça)":
+                WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/cidade-universitaria-pedra-branca-palhoca-praca,1t");
                 break;
             case "Diretão":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/sao-jose,2/barreiros-sao-jose-diretao,20");
                 break;
-            case "Diretão Executivo":
+            /*case "Diretão Executivo":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/sao-jose,2/barreiros-sao-jose-diretao-executivo,21");
                 break;
             case "Enseada do Brito (Escolar)":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/enseada-do-brito-escolar,45");
+                break;*/
+            case "Enseada-Ponte do Imaruim (Praça)":
+                WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/enseada-do-brito-ponte-do-imaruim-praca,2n");
                 break;
-            case "Enseada do Brito-Ponte do Imaruim":
-                WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/enseada-do-brito-estacao-palhoca,2n");
-                break;
-            case "Enseada do Brito-Florianópolis (Executivo)":
+            /*case "Enseada do Brito-Florianópolis (Executivo)":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/enseada-do-brito-florianopolis-executivo,48");
                 break;
             case "Estação Palhoça-Área Industrial (Circular)":
@@ -129,23 +129,26 @@ public class Act_Empresas_Jotur_WebView extends AppCompatActivity {
                 break;
             case "Forquilhas-São José":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/sao-jose,2/forquilhas-sao-jose,22");
+                break;*/
+            case "Guarda do Cubatão-Palhoça (Praça)":
+                WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/guarda-do-cubatao-palhoca-praca,13");
                 break;
-            case "Guarda do Cubatão-Ponte do Imaruim":
-                WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/guarda-do-cubatao-estacao-palhoca,13");
-                break;
-            case "Guarda do Cubatão-Ponte do Imaruim (Circular)":
-                WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/guarda-do-cubatao-estacao-palhoca-circular,15");
+            case "Guarda do Cubatão-Palhoça (Praça) Circular":
+                WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/guarda-do-cubatao-palhoca-praca-circular,15");
                 break;
             case "Guarda do Cubatão-Florianópolis":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/guarda-do-cubatao-florianopolis,12");
                 break;
-            case "Hospital Regional-Florianópolis":
+            /*case "Hospital Regional-Florianópolis":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/sao-jose,2/praia-comprida-hospital-regional-florianopolis,27");
-                break;
+                break;*/
             case "Interbairros (Bela Vista/Passa Vinte)":
-                WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/interbairros,4b");
+                WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/bela-vista-upa-passa-vinte-camelao-interbairros,4b");
                 break;
-            case "Irineu Comelli-Florianópolis":
+            case "Interbairros - Região Sul":
+                WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/interbairros-sul-de-palhoca,4r");
+                break;
+            /*case "Irineu Comelli-Florianópolis":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/sao-jose,2/irineu-comelli-florianopolis,28");
                 break;
             case "Jaqueira-Florianópolis":
@@ -153,11 +156,11 @@ public class Act_Empresas_Jotur_WebView extends AppCompatActivity {
                 break;
             case "Jardim Aquárius-Florianópolis":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/jardim-aquarius-florianopolis,1p");
-                break;
+                break;*/
             case "Jardim Eldorado-Florianópolis":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/jardim-eldorado-florianopolis,1o");
                 break;
-            case "Kobrasol-Área Industrial":
+            /*case "Kobrasol-Área Industrial":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/sao-jose,2/kobrasol-area-industrial,23");
                 break;
             case "Laranjeiras-Estação Palhoça":
@@ -177,41 +180,44 @@ public class Act_Empresas_Jotur_WebView extends AppCompatActivity {
                 break;
             case "Pachecos-Florianópolis":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/pachecos-florianopolis,8");
-                break;
+                break;*/
             case "Palhoça-Biguaçu":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/palhoca-biguacu,2j");
                 break;
-            case "Palhoça-Florianópolis":
+            /*case "Palhoça-Florianópolis":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/palhoca-florianopolis-paradora,2");
                 break;
             case "Palhoça-Florianópolis (Executivo)":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/palhoca-florianopolis-executivo,t");
+                break;*/
+             case "Palhoça(Praça)-Shopping Continente Circular":
+                WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/palhoca-praca-shopping-continente-ate-o-viaduto-da-forquilhinha,4t");
                 break;
-            case "Pedra Branca-Florianópolis":
+            /*case "Pedra Branca-Florianópolis":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/pedra-branca-florianopolis,l");
                 break;
             case "Pinheira-Enseada do Brito (Escolar)":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/pinheira-enseada-do-brito-escolar,35");
+                break;*/
+            case "Pinheira-Ponte do Imaruim (Praça)":
+                WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/pinheira-guarda-do-embau-praia-do-sonho-ponte-do-imaruim-praca,2q");
                 break;
-            case "Pinheira-Ponte do Imaruim":
-                WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/pinheira-estacao-palhoca,2q");
-                break;
-            case "Pinheira-Florianópolis (Executivo)":
+            /*case "Pinheira-Florianópolis (Executivo)":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/pinheira-florianopolis-executivo,46");
                 break;
             case "Ponta de Baixo-Florianópolis":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/sao-jose,2/ponta-de-baixo-florianopolis,29");
-                break;
+                break;*/
             case "São José-Florianópolis":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/sao-jose,2/sao-jose-florianopolis-circular,2a");
                 break;
-            case "São Sebastião-Palhoça":
-                WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/sao-sebastiao-estacao-palhoca,1i");
+            case "São Sebastião-Palhoça (Praça)":
+                WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/sao-sebastiao-palhoca-praca-via-passa-vinte-madri,1i");
                 break;
             case "São Sebastião-Florianópolis":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/sao-sebastiao-florianopolis,1g");
                 break;
-            case "São Sebastião-São José (Roçado)":
+            /*case "São Sebastião-São José (Roçado)":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/sao-sebastiao-sao-jose-rocado,1h");
                 break;
             case "Serraria-Forquilhinhas":
@@ -228,7 +234,7 @@ public class Act_Empresas_Jotur_WebView extends AppCompatActivity {
                 break;
             case "Vila Nova-Florianópolis":
                 WebView.loadUrl("https://www.jotur.com.br/horarios/palhoca,1/vila-nova-florianopolis,9");
-                break;
+                break;*/
         }
 
     }
