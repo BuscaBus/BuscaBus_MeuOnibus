@@ -206,10 +206,10 @@ public class Act_Empresas_CFenix_WebView extends AppCompatActivity {
             case "2120 - Executivo Barra da Lagoa":
                 WebView.loadUrl("https://www.consorciofenix.com.br/horarios/executivo-barra-da-lagoa,2120");
                 break;
-            /*case "2123 - Executivo Lagoa da Conceição via Joaquina":
+            case "2123 - Executivo Lagoa da Conceição via Joaquina":
                 WebView.loadUrl("https://www.consorciofenix.com.br/horarios/executivo-lagoa-da-conceicao-via-joaquina,2123");
                 break;
-            case "2124 - Executivo Sambaqui":
+            /*case "2124 - Executivo Sambaqui":
                 WebView.loadUrl("https://www.consorciofenix.com.br/horarios/executivo-sambaqui,2124");
                 break;*/
             case "221 - TICAN-TICEN via Mauro Ramos":
@@ -370,11 +370,11 @@ public class Act_Empresas_CFenix_WebView extends AppCompatActivity {
                 break;
             /*case "4120 - Executivo Pântano do Sul via Eucaliptos":
                 WebView.loadUrl("https://www.consorciofenix.com.br/horarios/executivo-pantano-do-sul-via-eucaliptos,4120");
-                break;
+                break;*/
             case "4121 - Executivo Pântano do Sul via Campeche":
                 WebView.loadUrl("https://www.consorciofenix.com.br/horarios/executivo-pantano-do-sul-via-campeche,4121");
                 break;
-            case "4122 - Executivo Campeche":
+            /*case "4122 - Executivo Campeche":
                 WebView.loadUrl("https://www.consorciofenix.com.br/horarios/executivo-campeche,4122");
                 break;*/
             case "4123 - Executivo Ribeirão da Ilha":
@@ -449,9 +449,9 @@ public class Act_Empresas_CFenix_WebView extends AppCompatActivity {
             case "563 - Costa de Dentro":
                 WebView.loadUrl("https://www.consorciofenix.com.br/horarios/costa-de-dentro,563");
                 break;
-            /*case "564 - Pântano do Sul":
+            case "564 - Pântano do Sul":
                 WebView.loadUrl("https://www.consorciofenix.com.br/horarios/pantano-do-sul,564");
-                break;*/
+                break;
             case "565 - Ribeirão da Ilha":
                 WebView.loadUrl("https://www.consorciofenix.com.br/horarios/ribeirao-da-ilha,565");
                 break;

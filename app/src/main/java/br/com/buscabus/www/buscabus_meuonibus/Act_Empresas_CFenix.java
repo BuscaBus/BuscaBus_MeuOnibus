@@ -89,7 +89,7 @@ public class Act_Empresas_CFenix extends AppCompatActivity {
         linha.add("210 - TICAN-TICEN Direto");
         //linha.add("212 - TISAN-TICEN Direto");
         linha.add("2120 - Executivo Barra da Lagoa");
-        //linha.add("2123 - Executivo Lagoa da Conceição via Joaquina");
+        linha.add("2123 - Executivo Lagoa da Conceição via Joaquina");
         //linha.add("2124 - Executivo Sambaqui");
         linha.add("221 - TICAN-TICEN via Mauro Ramos");
         linha.add("230 - Canasvieiras via Gama D`Eça");
@@ -144,7 +144,7 @@ public class Act_Empresas_CFenix extends AppCompatActivity {
         linha.add("366 - Barra do Sambaqui via Padre Rohr");
         linha.add("410 - TIRIO-TICEN Direto");
         //linha.add("4120 - Executivo Pântano do Sul via Eucaliptos");
-        //linha.add("4121 - Executivo Pântano do Sul via Campeche");
+        linha.add("4121 - Executivo Pântano do Sul via Campeche");
         //linha.add("4122 - Executivo Campeche");
         linha.add("4123 - Executivo Ribeirão da Ilha");
         linha.add("4124 - Executivo Caieira Barra do Sul via Tapera");
@@ -170,7 +170,7 @@ public class Act_Empresas_CFenix extends AppCompatActivity {
         linha.add("561 - Caieira da Barra do Sul");
         linha.add("562 - Costa de Cima");
         linha.add("563 - Costa de Dentro");
-        //linha.add("564 - Pântano do Sul");
+        linha.add("564 - Pântano do Sul");
         linha.add("565 - Ribeirão da Ilha");
         //linha.add("566 - Caieira via Tapera");
         //linha.add("600 - Madrugadão Continente");
